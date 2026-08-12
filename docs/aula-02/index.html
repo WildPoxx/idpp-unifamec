@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IDPP - Aula 02 - Apresentação do plano da disciplina (versão do aluno)</title>
+  <style>
+/* ==========================================================
+   deck-html-idpp.css
+   Instituicoes de Direito Publico e Privado - UniFamec - 2026.2
+   Prof. Mario Bastos
+
+   Derivado de deck-html-teoria.css (Direito Constitucional, FBBR).
+   Mesma engenharia de lamina: 1280x720, faixas de bloco, HUD de
+   ritmo, laminas opcionais, projecao-segura para gabarito e notas,
+   e regras de impressao para a copia do professor.
+
+   O que muda e apenas a pele: paleta azul e vermelha da UniFamec
+   no lugar do bordo e verde, e papel de fundo frio no lugar do creme.
+   A tipografia ja era sem serifa no sistema de origem.
+
+   NAO editar deck-html-teoria.css a partir daqui. Sao arquivos
+   independentes, para disciplinas e instituicoes diferentes.
+   ========================================================== */
+
+:root { --paper:#f4f6fa; --paper-warm:#ffffff; --ink:#16202e; --muted:#5a6b80; --accent:#123a6b; --accent-soft:#ccdaea; --line:#c6d3e2; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:"Aptos","Inter","Segoe UI",Arial,sans-serif; background:#18222e; color:var(--ink); }
+.deck { display:flex; flex-direction:column; gap:28px; align-items:center; padding:28px; }
+.slide { position:relative; width:1280px; height:720px; padding:56px 72px; overflow:hidden; background:var(--paper); color:var(--ink); box-shadow:0 20px 70px rgba(0,0,0,.35); }
+.slide::after { content:attr(data-slide); position:absolute; right:72px; bottom:32px; font-size:18px; color:var(--muted); }
+.title { display:flex; flex-direction:column; justify-content:center; }
+.title::before { content:""; position:absolute; inset:0 0 auto auto; width:360px; height:720px; background:linear-gradient(180deg,rgba(18,58,107,.12),rgba(18,58,107,0)); }
+.kicker { margin:0 0 18px; font-size:22px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; color:var(--accent); }
+h1 { max-width:940px; margin:0; font-size:58px; line-height:1.05; letter-spacing:0; }
+h2 { max-width:1000px; margin:0 0 28px; font-size:42px; line-height:1.1; letter-spacing:0; }
+.lead { max-width:920px; margin:28px 0 0; font-size:30px; line-height:1.25; }
+.rule { width:120px; height:6px; margin:30px 0 0; background:var(--accent); }
+.grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:40px; margin-top:42px; }
+.grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:28px; margin-top:42px; }
+.box { min-height:178px; padding:20px 24px; border-left:6px solid var(--accent); background:var(--paper-warm); }
+.box strong { display:block; margin-bottom:14px; font-size:28px; line-height:1.1; color:var(--accent); }
+.box.compact { min-height:112px; padding:16px 20px; }
+.box.compact strong { margin-bottom:8px; font-size:24px; }
+.box.compact .small { font-size:19px; line-height:1.28; }
+.small { margin:0; font-size:22px; line-height:1.35; }
+.footer { position:absolute; bottom:32px; left:72px; margin:0; max-width:860px; font-size:18px; line-height:1.3; color:var(--muted); }
+.visual-layout { display:grid; grid-template-columns:1.05fr .95fr; gap:36px; align-items:stretch; margin-top:30px; }
+.stack { display:grid; gap:18px; }
+.image-slot { min-height:376px; padding:24px; border:2px dashed var(--accent-soft); background:linear-gradient(135deg,rgba(18,58,107,.08),rgba(255,255,255,.82)),var(--paper-warm); display:flex; flex-direction:column; justify-content:flex-end; }
+.image-slot-label { margin:0 0 12px; font-size:18px; font-weight:750; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); }
+.image-prompt { margin:0; font-size:18px; line-height:1.3; color:#2b3a4d; }
+.activity-question { max-width:980px; margin:32px 0 0; font-size:38px; line-height:1.15; font-weight:750; }
+@media (max-width:1320px) { .deck { align-items:flex-start; } .slide { transform:scale(calc((100vw - 56px)/1280)); transform-origin:top left; margin-bottom:calc((720px * ((100vw - 56px)/1280)) - 720px); } }
+@media print { body { background:#fff; } .deck { display:block; padding:0; } .slide { page-break-after:always; box-shadow:none; } }
+
+/* ==========================================================
+   CAMADA DE REGÊNCIA DE TEMPO, PROJEÇÃO SEGURA E LAYOUT DENSO
+   Acrescentada em 11/08/2026 para o Deck da Aula 01.
+   NADA foi removido do bloco acima: os decks dos Módulos 1 a 8,
+   de julho de 2026, continuam abrindo exatamente como antes.
+   As regras de projeção segura (gabarito e notas ocultos) só
+   valem para decks que declaram <body class="projecao-segura">.
+   ========================================================== */
+
+:root {
+  --accent-2: #b01f28;
+  --accent-2-soft: #f2ced1;
+}
+
+.slide { scroll-margin-top: 24px; }
+
+/* --- Caixas: variante secundária e variante mínima --- */
+.box.alt { border-left-color: var(--accent-2); }
+.box.alt strong { color: var(--accent-2); }
+.box.mini { min-height: 118px; padding: 14px 16px; }
+.box.mini strong { margin-bottom: 8px; font-size: 21px; }
+.box.mini .small { font-size: 19px; line-height: 1.28; }
+
+/* --- Grade de cinco colunas (incisos do art. 1º) --- */
+.grid-5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px; margin-top: 34px; }
+
+/* --- Tabela de três colunas --- */
+.table { display: grid; grid-template-columns: .8fr 1fr 1.15fr; border: 2px solid var(--line); background: var(--paper-warm); margin-top: 34px; }
+.table div { min-height: 86px; padding: 16px 18px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: 20px; line-height: 1.25; }
+.table div:nth-child(3n) { border-right: none; }
+.table .head { min-height: 54px; font-weight: 750; color: var(--accent); background: rgba(18, 58, 107, .08); }
+.table.duas { grid-template-columns: 1fr 1.35fr; }
+.table.duas div:nth-child(3n) { border-right: 1px solid var(--line); }
+.table.duas div:nth-child(2n) { border-right: none; }
+
+/* --- Citação em bloco --- */
+.quote { margin-top: 42px; padding: 30px 34px; border: 2px solid var(--line); background: rgba(255, 255, 255, .72); font-size: 32px; line-height: 1.25; }
+.quote.compacta { margin-top: 24px; padding: 22px 26px; font-size: 25px; line-height: 1.3; }
+
+/* --- Alternativas de questão objetiva --- */
+.choice { display: grid; gap: 12px; margin-top: 24px; }
+.choice div { padding: 12px 16px; background: var(--paper-warm); border-left: 5px solid var(--line); font-size: 21px; line-height: 1.22; }
+.choice .correct { border-left-color: var(--accent); font-weight: 750; }
+
+/* --- Etiquetas, avisos, cronograma e lista de fontes --- */
+.tag-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.tag { display: inline-flex; align-items: center; min-height: 42px; padding: 8px 14px; border: 1px solid var(--line); background: var(--paper-warm); color: var(--accent); font-size: 19px; font-weight: 750; }
+.notice { margin-top: 28px; padding: 18px 22px; border-left: 6px solid var(--accent-2); background: rgba(176, 31, 40, .08); font-size: 22px; line-height: 1.3; }
+.schedule { display: grid; grid-template-columns: 145px 1.05fr 1.25fr; border: 2px solid var(--line); background: var(--paper-warm); margin-top: 26px; }
+.schedule.four { grid-template-columns: 140px 1fr 1.2fr .8fr; }
+.schedule div { min-height: 52px; padding: 10px 12px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: 18px; line-height: 1.22; }
+.schedule.thin div { min-height: 44px; padding: 8px 11px; font-size: 17px; }
+.schedule div:nth-child(3n) { border-right: none; }
+.schedule.four div:nth-child(3n) { border-right: 1px solid var(--line); }
+.schedule.four div:nth-child(4n) { border-right: none; }
+.schedule .head { min-height: 44px; font-weight: 750; color: var(--accent); background: rgba(18, 58, 107, .08); }
+.source-list { display: grid; gap: 14px; margin-top: 30px; }
+.source-list div { padding: 14px 18px; border-left: 5px solid var(--accent); background: var(--paper-warm); font-size: 21px; line-height: 1.25; }
+.source-list strong { color: var(--accent); }
+
+/* --- Texto miúdo de rodapé interno --- */
+.micro { margin: 10px 0 0; color: var(--muted); font-size: 17px; line-height: 1.25; }
+
+/* --- Faixa superior de bloco e horário-alvo --- */
+.block-band { position: absolute; top: 0; left: 0; right: 0; z-index: 3; display: flex; align-items: center; gap: 14px; height: 34px; padding: 0 72px; background: rgba(18, 58, 107, .10); border-bottom: 1px solid var(--line); font-size: 17px; font-weight: 750; letter-spacing: .04em; text-transform: uppercase; color: var(--accent); }
+.block-band .clock { margin-left: auto; font-variant-numeric: tabular-nums; color: var(--muted); }
+.block-band .opt { padding: 2px 10px; background: rgba(176, 31, 40, .14); border: 1px solid rgba(176, 31, 40, .35); color: var(--accent-2); letter-spacing: .03em; }
+
+.slide.banded { padding-top: 74px; }
+.slide.banded.title { padding-top: 56px; }
+.title::before { z-index: 0; }
+.slide.title.banded::before { top: 34px; height: 686px; }
+
+/* --- Lâmina opcional: corte ao vivo sem prejuízo do núcleo --- */
+.slide.optional { background: repeating-linear-gradient(135deg, rgba(176, 31, 40, .035) 0 18px, rgba(176, 31, 40, 0) 18px 36px), var(--paper); }
+.slide.optional .block-band { background: rgba(176, 31, 40, .10); color: var(--accent-2); }
+body.hide-optional .slide.optional { display: none; }
+
+/* --- Marcas do professor: tecla M limpa para projeção neutra --- */
+body.sem-marcas .block-band .opt { display: none; }
+body.sem-marcas .slide.optional { background: var(--paper); }
+body.sem-marcas .slide.optional .block-band { background: rgba(18, 58, 107, .10); color: var(--accent); }
+
+/* --- Ajuste fino para lâminas densas --- */
+.slide.tight h2 { font-size: 38px; margin-bottom: 14px; }
+.slide.tight .schedule { margin-top: 16px; }
+.slide.tight .grid-3, .slide.tight .grid-2 { margin-top: 26px; }
+.slide.tight .table { margin-top: 20px; }
+
+/* --- Painel do professor: relógio real contra horário-alvo --- */
+.hud { position: fixed; left: 18px; bottom: 18px; z-index: 50; display: flex; align-items: center; gap: 16px; padding: 10px 16px; border-radius: 4px; background: rgba(22, 32, 46, .93); color: #f4f6fa; font-family: "Aptos", "Inter", "Segoe UI", Arial, sans-serif; font-size: 15px; line-height: 1.2; box-shadow: 0 8px 30px rgba(0, 0, 0, .4); }
+.hud .hud-item { display: flex; flex-direction: column; gap: 2px; }
+.hud .hud-label { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: #b9c6d6; }
+.hud .hud-value { font-size: 17px; font-weight: 750; font-variant-numeric: tabular-nums; }
+.hud .hud-value.late { color: #f2a3a8; }
+.hud .hud-value.ahead { color: #8fc2ef; }
+.hud .hud-help { max-width: 300px; font-size: 11px; line-height: 1.35; color: #b9c6d6; }
+body.hud-off .hud { display: none; }
+
+/* --- Projeção segura: gabarito e notas escondidos até a tecla --- */
+body.projecao-segura .choice .correct { border-left-color: var(--line); font-weight: 400; }
+body.projecao-segura.mostrar-gabarito .choice .correct { border-left-color: var(--accent); font-weight: 750; }
+body.projecao-segura .gabarito { visibility: hidden; }
+body.projecao-segura.mostrar-gabarito .gabarito { visibility: visible; }
+body.projecao-segura .nota-professor, body.projecao-segura .image-prompt { visibility: hidden; }
+body.projecao-segura.mostrar-notas .nota-professor, body.projecao-segura.mostrar-notas .image-prompt { visibility: visible; }
+body.projecao-segura .visual-layout > .quote { display: flex; align-items: center; margin-top: 0; align-self: stretch; }
+
+/* --- Impressão: o PDF é a cópia do professor --- */
+@media print {
+  .hud { display: none; }
+  .slide.optional { background: #fff; }
+  body.projecao-segura .gabarito,
+  body.projecao-segura .nota-professor,
+  body.projecao-segura .image-prompt { visibility: visible; }
+  body.projecao-segura .choice .correct { border-left-color: var(--accent); font-weight: 750; }
+}
+
+/* Variante compacta da tabela, para quadros de cinco ou mais linhas */
+.table.compacta div { min-height: 60px; padding: 11px 16px; font-size: 19px; line-height: 1.22; }
+.table.compacta .head { min-height: 46px; }
+
+/* Declaração de uso de IAG em exposição eletrônica (Portaria CNPq 2.664/2026, art. 9º, I, "c") */
+.declaracao-iag { margin: 30px 0 0; max-width: 940px; font-size: 16px; line-height: 1.32; color: var(--muted); }
+
+/* Aperto adicional em lâminas .tight densas (só afeta quem declara .tight) */
+.slide.tight .box { min-height: 148px; }
+.slide.tight .notice { margin-top: 18px; padding: 14px 20px; }
+.slide.tight .micro { margin-top: 8px; }
+
+/* Ênfase dentro do corpo da caixa não deve virar bloco (o .box strong é o título) */
+.box .small strong, .box .small em { display: inline; margin: 0; font-size: inherit; line-height: inherit; color: inherit; }
+.box .small strong { font-weight: 750; }
+.slide.tight .source-list { margin-top: 18px; gap: 10px; }
+.slide.tight .source-list div { padding: 10px 16px; font-size: 19px; line-height: 1.24; }
+.slide.tight .declaracao-iag { margin-top: 16px; font-size: 15px; }
+  </style>
+</head>
+<body class="projecao-segura hud-off" data-bloco="Bloco 1" data-fim="20:10">
+  <main class="deck" aria-label="Deck da Aula 02 de IDPP">
+
+    <section class="slide title banded" data-slide="1/23" data-alvo="18:30">
+      <div class="block-band"><span>Bloco 1 · Abertura</span></div>
+      <p class="kicker">IDPP · Administração · 2026.2</p>
+      <h1>Introdução ao Direito Público e Privado</h1>
+      <p class="lead">O plano do semestre, as avaliações, as datas — e para que serve o Direito na vida de quem administra.</p>
+      <div class="rule"></div>
+      <p class="declaracao-iag">* Material elaborado com apoio de Inteligência Artificial Generativa — Claude (Anthropic), modelo Opus 5, e ChatGPT (OpenAI), modelo 5.5 — para estruturação das lâminas e apoio à elaboração de atividades. Fontes conferidas e responsabilidade integral do professor.</p>
+      <p class="footer">UniFamec — Administração — 2º semestre — Prof. Mario Bastos — quartas-feiras, 18:30 às 20:10.</p>
+    </section>
+
+    <section class="slide banded" data-slide="2/23" data-alvo="18:34">
+      <div class="block-band"><span>Bloco 1 · Por que isto importa</span></div>
+      <p class="kicker">Três decisões comuns</p>
+      <h2>Toda decisão de gestão tem uma face jurídica — inclusive quando ninguém percebe</h2>
+      <div class="grid-3">
+        <div class="box"><strong>Contratar</strong><p class="small">Assinar com um fornecedor, admitir um empregado, fechar uma parceria. Cada assinatura cria obrigações que sobrevivem a quem assinou.</p></div>
+        <div class="box alt"><strong>Vender para o Estado</strong><p class="small">Prefeitura, autarquia, empresa pública. As regras não são as do mercado: mudam o prazo, o pagamento e o que se pode combinar.</p></div>
+        <div class="box"><strong>Operar</strong><p class="small">Licença, fiscalização, multa, consumidor, meio ambiente. O risco jurídico aparece depois da decisão — e cobra de quem decidiu.</p></div>
+      </div>
+      <div class="notice">A pergunta desta disciplina não é <strong>&ldquo;o que diz a lei?&rdquo;</strong>. É <strong>&ldquo;o que eu, administrador, preciso enxergar antes de decidir?&rdquo;</strong></div>
+    </section>
+
+    <section class="slide banded" data-slide="3/23" data-alvo="18:38">
+      <div class="block-band"><span>Bloco 1 · Escopo</span></div>
+      <p class="kicker">O que é e o que não é</p>
+      <h2>Esta disciplina não forma juristas</h2>
+      <div class="grid-2">
+        <div class="box"><strong>O que vamos fazer</strong><p class="small">Alfabetização jurídico-institucional: entender como o Estado se organiza, como as normas se hierarquizam, o que a Administração Pública pode e não pode, e onde estão os riscos das decisões de gestão.</p></div>
+        <div class="box alt"><strong>O que não vamos fazer</strong><p class="small">Decorar artigos, redigir peças, discutir doutrina, fazer pesquisa jurídica. Nada disso é o seu ofício, e nada disso vai ser cobrado.</p></div>
+      </div>
+      <div class="notice">Se ao fim do semestre vocês souberem <strong>reconhecer o problema jurídico</strong> de uma situação e <strong>saber a quem perguntar</strong>, a disciplina cumpriu o que promete.</div>
+    </section>
+
+    <section class="slide banded" data-slide="4/23" data-alvo="18:42">
+      <div class="block-band"><span>Bloco 1 · Competência oficial</span></div>
+      <p class="kicker">O que o curso espera de vocês</p>
+      <h2>A competência C10, em português claro</h2>
+      <div class="quote">&ldquo;Assimilar os conhecimentos das ciências jurídicas de pertinência à área de administração, objetivando respaldar as ações gerenciais.&rdquo;</div>
+      <div class="grid-3">
+        <div class="box mini"><strong>Analisar riscos legais</strong><p class="small">Ver o problema antes que ele vire processo.</p></div>
+        <div class="box mini alt"><strong>Planejar dentro da lei</strong><p class="small">Escolher o caminho que se sustenta.</p></div>
+        <div class="box mini"><strong>Propor soluções</strong><p class="small">Decidir considerando as consequências.</p></div>
+      </div>
+      <p class="footer">Plano de Ensino IDPP — UniFamec — competência C10 do perfil do egresso em Administração.</p>
+    </section>
+
+    <section class="slide banded" data-slide="5/23" data-alvo="18:46">
+      <div class="block-band"><span>Bloco 1 · Estrutura</span></div>
+      <p class="kicker">Três unidades, três conceitos-chave</p>
+      <h2>O semestre tem três perguntas, uma por unidade</h2>
+      <div class="grid-3">
+        <div class="box"><strong>I · Norma jurídica</strong><p class="small">Como o Direito se organiza? O que é norma, quem faz, qual vale mais que qual, e como isso chega até a empresa.</p></div>
+        <div class="box alt"><strong>II · Administração Pública</strong><p class="small">Como o Estado age? Quem é quem, por quais princípios se orienta, e o que muda quando a empresa negocia com ele.</p></div>
+        <div class="box"><strong>III · Ética profissional</strong><p class="small">Do que você responde? Os deveres do administrador, o Código de Ética e as consequências de decidir mal.</p></div>
+      </div>
+      <div class="notice">As três se encadeiam: a Unidade I dá o vocabulário, a II mostra o Estado em ação, a III põe você dentro do problema.</div>
+    </section>
+
+    <section class="slide banded" data-slide="6/23" data-alvo="18:50">
+      <div class="block-band"><span>Bloco 1 · Unidade I</span></div>
+      <p class="kicker">Unidade I · agosto</p>
+      <h2>Noções de norma jurídica</h2>
+      <div class="schedule thin">
+        <div class="head">Aula</div><div class="head">Data</div><div class="head">Assunto</div>
+        <div>2</div><div>12/08</div><div>Direito como ciência; norma jurídica; Direito Público e Direito Privado. <strong>É a aula de hoje.</strong></div>
+        <div>3</div><div>19/08</div><div>Estado, poder, governo, Administração Pública e Constituição; hierarquia das normas e processo legislativo.</div>
+        <div>4</div><div>26/08</div><div>Pessoas físicas e jurídicas, bens e fatos jurídicos. <strong>Avaliação formal.</strong></div>
+      </div>
+      <div class="notice">Ao fim da unidade vocês devem saber dizer, diante de uma regra qualquer: <strong>quem fez isso, isso vale mesmo, e vale mais ou menos que aquela outra regra.</strong></div>
+    </section>
+
+    <section class="slide banded" data-slide="7/23" data-alvo="18:54">
+      <div class="block-band"><span>Bloco 1 · Unidade II</span></div>
+      <p class="kicker">Unidade II · setembro e outubro</p>
+      <h2>Noções de Administração Pública</h2>
+      <div class="schedule thin">
+        <div class="head">Aula</div><div class="head">Data</div><div class="head">Assunto</div>
+        <div>5 e 6</div><div>02 e 09/09</div><div>O que é Administração Pública; princípios: legalidade, impessoalidade, moralidade, publicidade e eficiência.</div>
+        <div>7 e 8</div><div>16 e 23/09</div><div>Administração direta e indireta; autarquias, fundações, empresas públicas e sociedades de economia mista; bens públicos e regulação.</div>
+        <div>9</div><div>30/09</div><div><strong>Atividade avaliativa 1</strong> — leitura institucional de um caso, feita em sala.</div>
+        <div>10 e 11</div><div>07 e 14/10</div><div>Contratos administrativos, licitação em noções gerais, OSCIPs, organizações sociais e parcerias público-privadas.</div>
+        <div>12 e 13</div><div>21 e 28/10</div><div>Semana científica e <strong>atividade avaliativa 2</strong> — análise de um fato ou notícia, em equipe.</div>
+      </div>
+    </section>
+
+    <section class="slide banded" data-slide="8/23" data-alvo="18:58">
+      <div class="block-band"><span>Bloco 1 · Unidade III</span></div>
+      <p class="kicker">Unidade III · novembro e dezembro</p>
+      <h2>Noções de ética profissional</h2>
+      <div class="schedule thin">
+        <div class="head">Aula</div><div class="head">Data</div><div class="head">Assunto</div>
+        <div>14</div><div>04/11</div><div>Devolutiva da atividade 2 e <strong>atividade avaliativa 3</strong>; papel institucional do administrador.</div>
+        <div>15</div><div>11/11</div><div>Código de Ética dos Profissionais de Administração: deveres, direitos, infrações e sanções.</div>
+        <div>16</div><div>18/11</div><div>Responsabilidade civil, penal, administrativa e reputacional de quem administra.</div>
+        <div>17</div><div>25/11</div><div>Dilemas profissionais: conflito de interesses, dever de informar, prudência na decisão.</div>
+        <div>18</div><div>02/12</div><div>Integração das três unidades e revisão.</div>
+      </div>
+      <p class="footer">Fonte da unidade: Código de Ética dos Profissionais de Administração. Brasília: Sistema CFA/CRAs, 2018.</p>
+    </section>
+
+    <section class="slide banded" data-slide="9/23" data-alvo="19:02">
+      <div class="block-band"><span>Bloco 1 · Método</span></div>
+      <p class="kicker">Como a aula funciona</p>
+      <h2>Aula dialogada, leitura guiada e caso</h2>
+      <div class="grid-3">
+        <div class="box"><strong>Aula dialogada</strong><p class="small">Eu exponho, vocês perguntam e discordam. Pergunta feita em voz alta vale mais do que anotação silenciosa.</p></div>
+        <div class="box alt"><strong>Leitura guiada</strong><p class="small">Trechos curtos, lidos em sala, com uma pergunta na mão. Nunca leitura longa em casa sem propósito.</p></div>
+        <div class="box"><strong>Estudo de caso</strong><p class="small">Uma história real ou verossímil, e quatro perguntas sobre ela. É o formato das discursivas e das atividades.</p></div>
+      </div>
+      <div class="notice">Não haverá trabalho de pesquisa acadêmica nesta disciplina. O que se pede é <strong>leitura de situação e decisão justificada</strong>.</div>
+    </section>
+
+    <section class="slide banded tight" data-slide="10/23" data-alvo="19:06">
+      <div class="block-band"><span>Bloco 1 · Padrão de trabalho</span></div>
+      <p class="kicker">O formato que se repete o semestre inteiro</p>
+      <h2>Um caso, quatro perguntas — sempre nesta ordem</h2>
+      <div class="source-list">
+        <div><strong>1. Quem está envolvido?</strong> As partes e as instituições que aparecem na história — empresa, órgão, agência, conselho, prefeitura.</div>
+        <div><strong>2. O que está em jogo?</strong> Quais direitos e deveres de cada parte a situação coloca em risco.</div>
+        <div><strong>3. O que o Estado pode fazer?</strong> Qual é o alcance da atuação pública ali, e que providências ou remédios existem.</div>
+        <div><strong>4. E você, o que faz?</strong> A decisão do administrador, justificada, com um risco assumido e nomeado.</div>
+      </div>
+      <div class="notice">As três primeiras perguntas são de leitura. <strong>A quarta é a sua</strong> — e é a que separa esta disciplina de um curso de Direito.</div>
+    </section>
+
+    <section class="slide banded optional tight" data-slide="11/23" data-alvo="19:10">
+      <div class="block-band"><span>Bloco 1 · Ensaio</span><span class="opt">opcional</span></div>
+      <p class="kicker">Um caso curto, resolvido junto</p>
+      <h2>Vamos testar o formato agora</h2>
+      <div class="quote compacta">Uma empresa de refeições vence a concorrência para fornecer merenda a três escolas municipais. Duas semanas depois, um servidor da secretaria pede que ela &ldquo;dê um jeito&rdquo; e atenda também um evento da prefeitura — sem contrato, sem pagamento, com promessa de compensar depois. A sócia precisa responder até sexta.</div>
+      <p class="activity-question">Em duplas, três minutos: quem está envolvido, o que está em jogo, e o que vocês responderiam à secretaria?</p>
+    </section>
+
+    <section class="slide banded" data-slide="12/23" data-alvo="19:20">
+      <div class="block-band"><span>Intervalo</span></div>
+      <p class="kicker">Intervalo</p>
+      <h2>Dez minutos</h2>
+      <p class="lead">Na volta: como a nota é composta, quais são as datas e o que fica combinado entre nós.</p>
+      <p class="footer">Retomada às 19:30, com o Bloco 2.</p>
+    </section>
+
+    <section class="slide banded" data-slide="13/23" data-alvo="19:30">
+      <div class="block-band"><span>Bloco 2 · Avaliação</span></div>
+      <p class="kicker">Como a nota funciona</p>
+      <h2>Três registros no sistema, cada um de 0 a 10</h2>
+      <div class="table">
+        <div class="head">Registro</div><div class="head">O que compõe</div><div class="head">Soma</div>
+        <div>Unidade I</div><div>Avaliação diagnóstica (2,0) + avaliação formal (8,0)</div><div>10,0</div>
+        <div>Unidade II</div><div>Três atividades processuais: 2,5 + 5,0 + 2,5</div><div>10,0</div>
+        <div>Unidade III</div><div>Avaliação interdisciplinar (2,0) + avaliação semestral (8,0)</div><div>10,0</div>
+      </div>
+      <div class="notice">As notas admitem fracionamento em meio ponto. Não existe nota escondida nem critério que vocês não conheçam: tudo o que vale nota está nesta apresentação.</div>
+      <p class="footer">Procedimentos institucionais UniFamec: três registros por componente, conceitos de 0 a 10, com fracionamento em 0,5.</p>
+    </section>
+
+    <section class="slide banded" data-slide="14/23" data-alvo="19:34">
+      <div class="block-band"><span>Bloco 2 · Unidade I</span></div>
+      <p class="kicker">Unidade I · o que já está marcado</p>
+      <h2>Diagnóstica e avaliação formal</h2>
+      <div class="grid-2">
+        <div class="box"><strong>Diagnóstica · 2,0</strong><p class="small">Oito questões objetivas, de nível introdutório, sobre <strong>conhecimentos que vocês já trazem</strong>: sociedade, Estado, organizações, cidadania e interpretação de situações. Não se estuda para ela. Aplicada nesta semana, conforme o calendário institucional.</p></div>
+        <div class="box alt"><strong>Avaliação formal · 8,0 · 26/08</strong><p class="small">Dez questões: <strong>sete objetivas e três discursivas</strong>. Cobra apenas o que tiver sido trabalhado nas aulas de 12/08, 19/08 e 26/08. As discursivas seguem o formato de caso que vimos há pouco.</p></div>
+      </div>
+      <div class="notice">Da avaliação formal até a devolutiva em sala vão no máximo <strong>quinze dias</strong>. É regra da instituição, e eu a cumpro.</div>
+    </section>
+
+    <section class="slide banded" data-slide="15/23" data-alvo="19:38">
+      <div class="block-band"><span>Bloco 2 · Como a prova é feita</span></div>
+      <p class="kicker">Não é surpresa, é engenharia</p>
+      <h2>Toda prova daqui se reparte em três níveis</h2>
+      <div class="table">
+        <div class="head">Nível</div><div class="head">Proporção</div><div class="head">O que se pede</div>
+        <div>Fácil</div><div>25%</div><div>Domínio do conceito: reconhecer, nomear, distinguir.</div>
+        <div>Médio</div><div>50%</div><div>Aplicação: usar o conceito numa situação concreta.</div>
+        <div>Difícil</div><div>25%</div><div>Problematização e decisão: escolher um caminho e sustentar a escolha.</div>
+      </div>
+      <div class="notice">Metade da prova é aplicação. Por isso a aula trabalha com casos: <strong>quem acompanha as aulas já treinou o tipo de questão que vai cair</strong>.</div>
+      <p class="footer">Matriz de referência de avaliação — Procedimentos institucionais UniFamec.</p>
+    </section>
+
+    <section class="slide banded tight" data-slide="16/23" data-alvo="19:43">
+      <div class="block-band"><span>Bloco 2 · Unidade II</span></div>
+      <p class="kicker">Unidade II · as três atividades</p>
+      <h2>A nota da segunda unidade se constrói em sala</h2>
+      <div class="schedule four">
+        <div class="head">Atividade</div><div class="head">O que é</div><div class="head">Peso</div><div class="head">Quando</div>
+        <div>1 · Leitura institucional</div><div>Em grupo, em sala: um caso simples e o mapa de quem é quem, que princípio aparece e que risco existe.</div><div>2,5</div><div>30/09</div>
+        <div>2 · Análise de um fato</div><div>Equipe de até três: uma notícia ou fato real, explicado em duas a quatro páginas, com o aprendizado prático para um administrador.</div><div>5,0</div><div>28/10</div>
+        <div>3 · Devolutiva e ajuste</div><div>Debate em sala e uma síntese curta incorporando as observações recebidas.</div><div>2,5</div><div>04/11</div>
+      </div>
+      <div class="notice">A atividade 3 é a única em que vocês são avaliados por <strong>corrigir o próprio trabalho</strong>. Quem entrega e some perde 2,5 pontos por ausência, não por erro.</div>
+    </section>
+
+    <section class="slide banded" data-slide="17/23" data-alvo="19:47">
+      <div class="block-band"><span>Bloco 2 · Unidade III</span></div>
+      <p class="kicker">Unidade III · fechamento</p>
+      <h2>Interdisciplinar e semestral</h2>
+      <div class="grid-2">
+        <div class="box"><strong>Interdisciplinar · 2,0 · 19/11</strong><p class="small">Avaliação institucional, comum às disciplinas do semestre. Reúne saberes de vários componentes numa situação só. Não é prova de IDPP: é prova do semestre.</p></div>
+        <div class="box alt"><strong>Semestral · 8,0 · dezembro</strong><p class="small">Dez questões, sete objetivas e três discursivas, sobre as <strong>três unidades</strong>. Mesmo formato da avaliação formal, com alcance maior.</p></div>
+      </div>
+      <div class="notice">A aula de <strong>02/12</strong> é inteiramente de revisão integradora, com resolução comentada de questões. É a aula que mais rende para quem está no limite.</div>
+    </section>
+
+    <section class="slide banded optional tight" data-slide="18/23" data-alvo="19:51">
+      <div class="block-band"><span>Bloco 2 · Calendário</span><span class="opt">opcional</span></div>
+      <p class="kicker">As dezoito aulas</p>
+      <h2>O semestre inteiro numa tela</h2>
+      <div class="schedule thin">
+        <div class="head">Agosto e setembro</div><div class="head">Outubro</div><div class="head">Novembro e dezembro</div>
+        <div>05/08 · abertura<br>12/08 · norma jurídica<br>19/08 · Estado e hierarquia<br>26/08 · <strong>avaliação formal</strong><br>02/09 · Administração Pública<br>09/09 · princípios<br>16/09 · direta e indireta<br>23/09 · bens públicos<br>30/09 · <strong>atividade 1</strong></div>
+        <div>07/10 · contratos e licitação<br>14/10 · OSCIPs e PPPs<br>21/10 · semana científica<br>28/10 · <strong>atividade 2</strong></div>
+        <div>04/11 · <strong>atividade 3</strong><br>11/11 · Código de Ética<br>18/11 · responsabilidade<br>25/11 · dilemas profissionais<br>02/12 · revisão integradora</div>
+      </div>
+      <p class="footer">Dezoito encontros, às quartas-feiras, das 18:30 às 20:10. Carga horária total: 36 horas.</p>
+    </section>
+
+    <section class="slide banded tight" data-slide="19/23" data-alvo="19:55">
+      <div class="block-band"><span>Bloco 2 · Datas que mandam</span></div>
+      <p class="kicker">Se vocês anotarem só cinco coisas hoje</p>
+      <h2>São estas as datas</h2>
+      <div class="table duas compacta">
+        <div class="head">Data</div><div class="head">O que acontece</div>
+        <div>26/08</div><div>Avaliação formal, 8,0. Fecha a Unidade I.</div>
+        <div>30/09</div><div>Atividade 1, em sala, 2,5. Quem falta, perde.</div>
+        <div>28/10</div><div>Entrega da análise em equipe, 5,0 — o maior peso isolado do semestre.</div>
+        <div>04/11</div><div>Devolutiva e ajuste, 2,5. Exige presença.</div>
+        <div>02/12</div><div>Revisão integradora. Última aula.</div>
+      </div>
+      <div class="notice">Três das cinco dependem de <strong>estar em sala naquele dia</strong>. Não há segunda chamada para atividade processual.</div>
+    </section>
+
+    <section class="slide banded optional" data-slide="20/23" data-alvo="19:59">
+      <div class="block-band"><span>Bloco 2 · Bibliografia</span><span class="opt">opcional</span></div>
+      <p class="kicker">O que ler, e o quanto</p>
+      <h2>Leitura curta e dirigida, nunca livro inteiro</h2>
+      <div class="source-list">
+        <div><strong>Base da disciplina.</strong> OLIVEIRA, João Rezende Almeida; COSTA, Tágory Figueiredo Martins. <em>Instituições de direito público e privado</em>. 3. ed. Florianópolis: UFSC/CAPES/UAB, 2016. Capítulos 1 a 4 na Unidade I, capítulo 5 na Unidade II.</div>
+        <div><strong>Apoio conceitual.</strong> DINIZ, Maria Helena. <em>Compêndio de introdução à ciência do direito</em>. São Paulo: Saraiva. NADER, Paulo. <em>Introdução ao estudo do direito</em>. Rio de Janeiro: Forense.</div>
+        <div><strong>Unidade II.</strong> CARVALHO FILHO, José dos Santos. <em>Manual de direito administrativo</em>. Rio de Janeiro: Lumen Juris.</div>
+        <div><strong>Unidade III.</strong> <em>Código de Ética dos Profissionais de Administração</em>. Brasília: Sistema CFA/CRAs, 2018. Leitura integral — são poucas páginas.</div>
+        <div><strong>Fonte primária, o semestre todo.</strong> BRASIL. <em>Constituição da República Federativa do Brasil de 1988</em>. Usaremos trechos, sempre indicados em aula.</div>
+      </div>
+      <p class="footer">Bibliografia do Plano de Ensino IDPP — UniFamec — 2026.2.</p>
+    </section>
+
+    <section class="slide banded" data-slide="21/23" data-alvo="20:02">
+      <div class="block-band"><span>Bloco 2 · Combinados</span></div>
+      <p class="kicker">O que fica combinado</p>
+      <h2>Quatro acordos, e eles valem para os dois lados</h2>
+      <div class="grid-2">
+        <div class="box"><strong>Devolutiva em quinze dias</strong><p class="small">Toda avaliação volta corrigida e comentada em sala em no máximo quinze dias. É regra da instituição e é compromisso meu.</p></div>
+        <div class="box alt"><strong>Nada cai de surpresa</strong><p class="small">A prova cobra o que foi trabalhado em aula. Se um assunto não foi dado, não é cobrado.</p></div>
+        <div class="box"><strong>Presença conta</strong><p class="small">Metade da nota da Unidade II se produz dentro da sala, em dia marcado. Faltar naquele dia custa a nota inteira da atividade.</p></div>
+        <div class="box alt"><strong>Pergunta não atrapalha</strong><p class="small">Interromper para perguntar é parte do método. Dúvida guardada vira erro na prova.</p></div>
+      </div>
+    </section>
+
+    <section class="slide banded" data-slide="22/23" data-alvo="20:06">
+      <div class="block-band"><span>Bloco 2 · Para 19/08</span></div>
+      <p class="kicker">Para a próxima aula</p>
+      <h2>Uma tarefa curta, sem entrega e sem nota</h2>
+      <div class="source-list">
+        <div><strong>1.</strong> Procurem <strong>uma notícia</strong>, de qualquer veículo, em que uma empresa apareça envolvida com um órgão público — licitação, multa, licença, fiscalização, parceria, o que for.</div>
+        <div><strong>2.</strong> Anotem três coisas: <strong>quem são as partes</strong>, <strong>qual órgão público aparece</strong> e <strong>o que a empresa queria</strong>.</div>
+        <div><strong>3.</strong> Tragam anotado. Vamos usar as notícias de vocês para montar o mapa da hierarquia das normas.</div>
+      </div>
+      <div class="notice">Não precisa entender a notícia juridicamente. Precisa <strong>reparar que existe Direito ali dentro</strong> — que é o primeiro passo de tudo o que faremos.</div>
+      <p class="footer">Próxima aula: 19/08/2026. Assunto: Estado, poder, governo, Constituição e hierarquia das normas.</p>
+    </section>
+
+    <section class="slide banded" data-slide="23/23" data-alvo="20:09">
+      <div class="block-band"><span>Bloco 2 · Referências</span></div>
+      <p class="kicker">Referências</p>
+      <h2>O que sustenta esta aula</h2>
+      <div class="source-list">
+        <div><strong>Documentos institucionais:</strong> Plano de Ensino de IDPP, Administração, UniFamec, 2026.2; Calendário Acadêmico 2026.2; Procedimentos e comandos para auxílio aos docentes na organização, execução e avaliação das situações de aprendizagem, Reitoria UniFamec.</div>
+        <div><strong>Bibliografia do plano:</strong> DOWER; DINIZ; REIS e REIS; NADER; CARVALHO FILHO; OLIVEIRA e COSTA. Referências completas no plano de ensino, disponível no portal.</div>
+        <div><strong>Fontes normativas:</strong> BRASIL. Constituição da República Federativa do Brasil de 1988. Sistema CFA/CRAs. Código de Ética dos Profissionais de Administração, 2018.</div>
+      </div>
+      <p class="declaracao-iag">* Material elaborado com apoio de Inteligência Artificial Generativa — Claude (Anthropic), modelo Opus 5, e ChatGPT (OpenAI), modelo 5.5 — para estruturação das lâminas, apoio à elaboração de atividades e organização do cronograma. A seleção do conteúdo, a conferência das fontes e a responsabilidade final são do docente.</p>
+    </section>
+
+  </main>
+
+  <div class="hud" id="hud" aria-hidden="true">
+    <div class="hud-item"><span class="hud-label">Lâmina</span><span class="hud-value" id="hud-slide">1/23</span></div>
+    <div class="hud-item"><span class="hud-label">Alvo</span><span class="hud-value" id="hud-alvo">18:30</span></div>
+    <div class="hud-item"><span class="hud-label">Agora</span><span class="hud-value" id="hud-agora">--:--</span></div>
+    <div class="hud-item"><span class="hud-label">Ritmo</span><span class="hud-value" id="hud-delta">-</span></div>
+    <p class="hud-help">setas navegam · F tela cheia · O oculta opcionais</p>
+  </div>
+
+  <script>
+  (function () {
+    var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
+    var hudSlide = document.getElementById('hud-slide');
+    var hudAlvo = document.getElementById('hud-alvo');
+    var hudAgora = document.getElementById('hud-agora');
+    var hudDelta = document.getElementById('hud-delta');
+    var atual = 0;
+
+    function visiveis() {
+      return slides.filter(function (s) { return s.offsetParent !== null; });
+    }
+
+    function irPara(i) {
+      var lista = visiveis();
+      if (!lista.length) return;
+      i = Math.max(0, Math.min(lista.length - 1, i));
+      atual = i;
+      lista[i].scrollIntoView({ behavior: 'smooth', block: 'start' });
+      atualizarHud(lista[i], i, lista.length);
+    }
+
+    function minutos(hhmm) {
+      var p = (hhmm || '').split(':');
+      if (p.length !== 2) return null;
+      return parseInt(p[0], 10) * 60 + parseInt(p[1], 10);
+    }
+
+    function doisDigitos(n) { return (n < 10 ? '0' : '') + n; }
+
+    function atualizarHud(slide, i, total) {
+      if (!slide) return;
+      hudSlide.textContent = (i + 1) + '/' + total;
+      var alvo = slide.getAttribute('data-alvo') || '-';
+      hudAlvo.textContent = alvo;
+      var agora = new Date();
+      hudAgora.textContent = doisDigitos(agora.getHours()) + ':' + doisDigitos(agora.getMinutes());
+      var ma = minutos(alvo);
+      if (ma === null) { hudDelta.textContent = '-'; hudDelta.className = 'hud-value'; return; }
+      var d = (agora.getHours() * 60 + agora.getMinutes()) - ma;
+      hudDelta.textContent = (d > 0 ? '+' : '') + d + ' min';
+      hudDelta.className = 'hud-value ' + (d > 2 ? 'late' : (d < -2 ? 'ahead' : ''));
+    }
+
+    function reancorar() {
+      var lista = visiveis();
+      atual = Math.max(0, Math.min(lista.length - 1, atual));
+      if (lista[atual]) atualizarHud(lista[atual], atual, lista.length);
+    }
+
+    document.addEventListener('keydown', function (e) {
+      var k = e.key;
+      if (k === 'ArrowRight' || k === 'ArrowDown' || k === 'PageDown') { e.preventDefault(); irPara(atual + 1); }
+      else if (k === 'ArrowLeft' || k === 'ArrowUp' || k === 'PageUp') { e.preventDefault(); irPara(atual - 1); }
+      else if (k === 'Home') { e.preventDefault(); irPara(0); }
+      else if (k === 'End') { e.preventDefault(); irPara(visiveis().length - 1); }
+      else if (k === 'f' || k === 'F') {
+        if (!document.fullscreenElement) { document.documentElement.requestFullscreen(); }
+        else { document.exitFullscreen(); }
+      }
+      else if (k === 'o' || k === 'O') { document.body.classList.toggle('hide-optional'); reancorar(); }
+      else if (k === 'm' || k === 'M') {
+        document.body.classList.remove('hide-optional');
+        reancorar();
+      }
+    });
+
+    window.addEventListener('scroll', function () {
+      var lista = visiveis();
+      for (var i = 0; i < lista.length; i++) {
+        var r = lista[i].getBoundingClientRect();
+        if (r.top >= -200 && r.top <= window.innerHeight / 2) {
+          atual = i;
+          atualizarHud(lista[i], i, lista.length);
+          break;
+        }
+      }
+    }, { passive: true });
+
+    setInterval(function () { reancorar(); }, 20000);
+    irPara(0);
+  })();
+  </script>
+</body>
+</html>
