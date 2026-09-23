@@ -8,8 +8,8 @@ unidade: I
 conceito-chave: Noções de norma jurídica
 tema: "Duas leis que ensinam a ler todas as outras: LINDB e LC 95/98"
 aula_de_referencia: "Aula 3 - 19/08"
-cai_na_prova: sim
-status: rascunho - aguarda validação do docente
+cai_na_prova: nao - fora do recorte da avaliacao formal da I Unidade, por decisao do docente em 19-08-2026 (tempo insuficiente para o material). A turma foi avisada em sala.
+status: revisado em 25-08-2026 - recorte de prova corrigido no frontmatter
 data: 2026-08-12
 tags:
   - idpp
@@ -79,9 +79,12 @@ A revogação acontece de três modos: quando a lei nova **declara expressamente
 antiga; quando é **incompatível** com ela; ou quando **regula inteiramente** a mesma matéria.
 
 E há a regra que confunde muita gente: *"salvo disposição em contrário, a lei revogada não se
-restaura por ter a lei revogadora perdido a vigência."* Ou seja — se a lei B revogou a lei A,
-e depois B é revogada, **A não volta sozinha**. Só volta se alguém disser expressamente que
-volta.
+restaura por ter a lei revogadora perdido a vigência."* Ou seja — se uma norma foi revogada, e
+depois a norma que a revogou também é revogada, **a antiga não volta sozinha**. Só volta se a
+nova disser expressamente que a restaura.
+
+Esse retorno tem nome: **repristinação**. No Brasil ela não é automática — depende de
+declaração expressa.
 
 ### 3. Ninguém se escusa de cumprir a lei alegando que não a conhece
 
@@ -239,7 +242,8 @@ da consulta formal, e que a resposta vincula o próprio órgão até ser revista
   publicação oficial.
 - A lei vale até que outra a modifique ou revogue; não caduca sozinha, salvo se for
   temporária.
-- Lei revogada não se restaura automaticamente quando a revogadora perde vigência.
+- Lei revogada não se restaura automaticamente quando a revogadora perde vigência: a
+  **repristinação**, no Brasil, depende de declaração expressa.
 - Ninguém se escusa de cumprir a lei alegando desconhecê-la.
 - Lacuna se resolve por analogia, costumes e princípios gerais de direito.
 - A lei nova respeita ato jurídico perfeito, direito adquirido e coisa julgada — todos

@@ -537,3 +537,133 @@ button {
     grid-template-columns: 1fr;
   }
 }
+
+/* --- Treino interativo por questão (Módulo 2 em diante) — 2026-09-23.
+   Bloco aditivo, trazido do site de Direito Constitucional (mesma interface
+   de correção por alternativa). Nenhuma regra anterior foi alterada. --- */
+
+.quiz-feedback {
+  margin-top: 14px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8f8f5;
+}
+
+.quiz-feedback.is-correct {
+  border-color: #9bc6a4;
+  background: #edf7ef;
+}
+
+.quiz-feedback.is-wrong {
+  border-color: #dfb4ac;
+  background: #fdf0ee;
+}
+
+.quiz-feedback p {
+  margin: 0;
+}
+
+.actions-inline {
+  margin: 14px 0 0;
+}
+
+.answer-breakdown {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.answer-line {
+  margin: 0;
+  padding: 10px 12px;
+  border-left: 3px solid var(--line);
+  border-radius: 0 6px 6px 0;
+  background: #fbfbf9;
+}
+
+.answer-line.is-correct {
+  border-left-color: #2f7d4f;
+  background: #eef7f0;
+}
+
+.answer-line.is-wrong {
+  border-left-color: #a74432;
+  background: #fdf3f1;
+}
+
+.answer-line.is-chosen {
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.answer-line .verdict {
+  display: block;
+  margin-bottom: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.answer-line.is-correct .verdict {
+  color: #2f7d4f;
+}
+
+.answer-line.is-wrong .verdict {
+  color: #a74432;
+}
+
+.verdict-line {
+  margin: 0;
+}
+
+.option-row.is-correct {
+  border-color: #9bc6a4;
+  background: #f2faf4;
+}
+
+.option-row.is-chosen-wrong {
+  border-color: #dfb4ac;
+  background: #fdf4f2;
+}
+
+.answer-note {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border: 1px dashed var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+}
+
+.answer-note p {
+  margin: 0 0 8px;
+}
+
+.answer-note p:last-child {
+  margin-bottom: 0;
+}
+
+.report-box {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.quiz-panel .quiz-title {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.deck-cta {
+  margin: 18px 0 0;
+}
+
+.deck-cta .tag {
+  padding: 8px 14px;
+  border: 1px solid var(--accent-2);
+  border-radius: 999px;
+  text-decoration: none;
+}

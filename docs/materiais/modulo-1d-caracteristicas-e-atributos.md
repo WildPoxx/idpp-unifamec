@@ -9,8 +9,8 @@ conceito-chave: Noções de norma jurídica
 tema: "Características e atributos da norma jurídica"
 aula_de_referencia: "Aula 3 - 19/08"
 cai_na_prova: sim
-status: rascunho - aguarda validação do docente
-data: 2026-08-12
+status: revisado em 25-08-2026 - conferência doutrinária contra Pinto Martins, Nucci, LINDB e Constituição
+data: 2026-08-25
 tags:
   - idpp
   - unifamec
@@ -123,6 +123,13 @@ Constituição.
 Repare que validade não depende de a norma ser cumprida, nem de ser justa. Depende de ela ter
 nascido certo.
 
+> **Ao conferir no livro.** Pinto Martins emprega "validade" num sentido diferente do adotado
+> aqui: para ele, é *"a força imponível que a norma tem, isto é, a possibilidade de ser
+> observada"*. O sentido que usamos — nascer conforme competência, procedimento e norma
+> superior — é o corrente na teoria do Direito, e é o que Nucci pressupõe ao falar em
+> *fundamento de validade* das normas diante da Constituição. Se você encontrar as duas
+> definições, não são erro de um dos dois: são usos distintos da mesma palavra.
+
 ### Vigência
 
 Vigência é a dimensão do tempo. A norma nasce com a publicação oficial, mas nem sempre começa
@@ -133,6 +140,11 @@ conhecimento e se preparem.
 A própria lei costuma dizer quando entra em vigor. Quando cala, vale a regra geral da LINDB,
 vista no Módulo 1C: *"salvo disposição contrária, a lei começa a vigorar em todo o país
 quarenta e cinco dias depois de oficialmente publicada"*.
+
+Guarde a exceção que a expressão **"em todo o país"** anuncia: nos Estados estrangeiros, quando
+a lei brasileira é admitida, a obrigatoriedade começa **três meses** depois da publicação
+oficial. Interessa a quem opera fora, e explica por que a fórmula do prazo geral traz aquele
+recorte territorial.
 
 A vigência termina com a **revogação** — expressa, quando a nova norma diz que revoga a
 antiga, ou tácita, quando a nova é incompatível com a antiga ou regula inteiramente a mesma
@@ -163,7 +175,9 @@ tecnicamente apta, e ainda assim ser sistematicamente descumprida.
 
 Para quem administra, a diferença é dinheiro. Norma sem efetividade **não é norma revogada**:
 a força continua guardada, e o dia em que a fiscalização apertar, ela se aplica com todos os
-efeitos, inclusive sobre o período em que "ninguém cumpria".
+efeitos, inclusive sobre o período em que "ninguém cumpria" — **respeitados os prazos que a lei
+fixa para a Administração punir**. Esses prazos existem e são a única contenção; não são,
+porém, a absolvição que o descumprimento generalizado costuma sugerir a quem confia nele.
 
 > **Observação — legitimidade.** Alguns autores acrescentam um quinto item à lista: a
 > **legitimidade**, que não é técnica, mas social. Uma norma pode ser válida, vigente e
@@ -176,7 +190,8 @@ efeitos, inclusive sobre o período em que "ninguém cumpria".
 ## 4. A norma no tempo
 
 A regra geral é a **irretroatividade**: a lei nova rege o futuro, não o passado. Ela tem
-efeito imediato e geral, mas encontra três barreiras firmes, todas definidas na LINDB:
+efeito imediato e geral, mas encontra três barreiras firmes. As três são **garantias
+constitucionais**, previstas entre os direitos fundamentais, e a LINDB é que as conceitua:
 
 - **Ato jurídico perfeito** — o que já se completou segundo a lei vigente ao tempo em que foi
   feito. O contrato assinado e cumprido não é reaberto por lei posterior.
@@ -184,8 +199,48 @@ efeito imediato e geral, mas encontra três barreiras firmes, todas definidas na
   preencheu todas as condições, ainda que não o tenha exercido.
 - **Coisa julgada** — a decisão judicial da qual não cabe mais recurso.
 
-Para a gestão, essas três palavras valem uma frase: **regra nova não desfaz negócio bem feito
+Duas precisões que evitam erro, e a primeira é a que mais engana.
+
+**Ato jurídico perfeito não é assunto de contrato.** A lei fala em *ato*, e é de propósito. A
+escada é esta: fato jurídico é o gênero; **ato jurídico** é a espécie em que há vontade humana;
+**negócio jurídico** — o contrato — é espécie do ato jurídico lícito. Ou seja, contrato é o
+caso mais familiar, e não o único. Um ato administrativo regularmente formado e um ato
+praticado dentro de um processo também se completam sob a lei do seu tempo, e também não são
+alcançados por lei posterior. Uma sentença definitiva é, ela própria, um ato completo — a
+Constituição apenas lhe dá nome próprio, *coisa julgada*, pela força específica de não poder
+mais ser rediscutida.
+
+**A proteção é contra a lei nova, e não contra tudo.** Ser ato jurídico perfeito não torna o
+ato eterno nem intocável: um contrato perfeito pode ser rescindido por inadimplemento, revisto
+por acordo, anulado por vício de vontade. O que ele não sofre é a incidência de uma regra que
+só passou a existir depois de ele estar pronto.
+
+Para a gestão, essas três palavras valem uma frase: **regra nova não desfaz o que foi bem feito
 sob a regra antiga**.
+
+### Onde essa regra encontra limite
+
+A regra é forte e continua sendo o ponto de partida — e vale mesmo quando a lei nova se
+apresenta como de grande interesse público: dizer que uma regra é importante não a autoriza a
+alcançar o que já estava pronto. Dito isso, há três situações em que a lei nova alcança o que
+parecia protegido.
+
+**O que já nasceu viciado nunca foi bem feito.** Negócio obtido por simulação, por fraude ou por
+engano deliberado pode ser desfeito — mas repare no detalhe que muda tudo: ele é desfeito pelas
+**regras da época em que foi celebrado**, não pelas de agora. A má-fé não faz a lei nova
+retroagir; ela apenas mostra que não havia, ali, ato jurídico perfeito nenhum a proteger.
+
+**Contrato que se renova é contrato novo a cada renovação.** Num plano de saúde ou num seguro
+que se renova todo ano, a renovação feita depois da lei nova já nasce sob ela. Não há
+retroatividade: há um acordo novo, celebrado sob a regra nova.
+
+**Fato novo, lei nova.** Quando o acontecimento que importa ocorre depois da lei — e não antes —,
+é a lei do momento do fato que o disciplina, ainda que o contrato seja antigo.
+
+Fora dessas três hipóteses, o entendimento é restritivo: mexer nos efeitos futuros de um
+contrato antigo já conta como voltar atrás, e por isso não se admite. Guarde a fórmula com a
+ressalva embutida: **a regra antiga protege o que já foi feito; ela não congela para sempre
+tudo o que ainda está por acontecer.**
 
 ---
 

@@ -9,8 +9,8 @@ conceito-chave: Noções de norma jurídica
 tema: "O que é uma norma jurídica, e que força ela carrega"
 aula_de_referencia: "Aulas 2 e 3 - 12/08 e 19/08"
 cai_na_prova: sim
-status: rascunho - aguarda validação do docente
-data: 2026-08-12
+status: revisado em 25-08-2026 - conferência doutrinária contra Pinto Martins, Nucci, LINDB e Constituição
+data: 2026-08-25
 tags:
   - idpp
   - unifamec
@@ -94,11 +94,18 @@ Disso resultam quatro situações, e todas aparecem na vida de uma empresa.
 
 | | Moralmente aceito | Moralmente reprovado |
 |---|---|---|
-| **Juridicamente permitido** | demitir por reestruturação, pagando todos os direitos | demitir no dia seguinte ao retorno de uma licença, dentro da lei |
+| **Juridicamente permitido** | demitir por reestruturação, pagando todos os direitos | não renovar o contrato do pequeno fornecedor que dependia de você, cumprindo o aviso prévio |
 | **Juridicamente proibido** | atrasar o salário para não fechar as portas | atrasar o salário e usar o dinheiro em outra coisa |
 
 A casa de cima à direita é a que mais custa reputação: **é legal e é malvista**. A de baixo à
 esquerda é a que mais custa noites de sono: **é compreensível e é ilegal**.
+
+Um cuidado ao montar exemplos assim, e ele vale para a sua prova de vida: muitos casos que
+*parecem* estar na casa "legal e malvisto" não estão, porque a lei já os proibiu. Dispensar
+alguém logo após o retorno de uma licença de saúde, por exemplo, costuma esbarrar em regra de
+estabilidade ou em discussão sobre dispensa discriminatória — não é caso de conduta legal e
+malvista, é caso de conduta possivelmente ilegal. Antes de concluir que algo é "legal, mas
+feio", vale checar se é mesmo legal.
 
 Repare que este quadro é o mesmo problema do Módulo 1A, agora em escala de escritório. Se o
 Direito fosse só forma, a linha de cima encerraria o assunto. Não encerra.
@@ -167,6 +174,14 @@ teria manifestado livremente, e que por isso permite anular o negócio.
 > Direito Civil e no Penal, "coação" é termo técnico de **ilicitude**: vicia o contrato, e é
 > crime. Como é nesse segundo sentido que a palavra aparece nos livros desta disciplina, é
 > ele que adotamos. Ao ler outros autores, confira em que sentido cada um emprega o termo.
+>
+> **Um caso que você vai encontrar nos nossos próprios livros.** Ao reproduzirem o quadro de
+> Miguel Reale comparando Direito e moral, tanto Pinto Martins quanto Nucci escrevem que a
+> moral *"é insuscetível de coação"* e que o Direito *"é coercível"*. Ali, "coação" está no
+> sentido **legítimo** — é o que nesta disciplina chamamos de **coerção**. Não é engano dos
+> autores nem nosso: é a mesma palavra em dois ofícios. Vale registrar que o próprio Reale
+> preferia falar em **coercibilidade**, e pela razão que adotamos: coação designa a força em
+> ato; coercibilidade, a força apenas possível.
 
 ### O limite que o Módulo 1A já anunciou
 
