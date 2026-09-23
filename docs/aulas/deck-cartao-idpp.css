@@ -1,0 +1,31 @@
+/* Modo cartão — telas do aluno no celular (IDPP · UniFamec)
+   Arquivo ADITIVO, carregado depois de deck-html-idpp.css pelas páginas
+   de docs/aulas/. A folha compartilhada não foi alterada. Só age abaixo
+   de 820px, onde a folha já desmonta a lâmina 1280×720 em coluna: aqui,
+   cada bloco passa a ocupar a tela inteira do aparelho, e a rolagem
+   "encaixa" de cartão em cartão, como um baralho em pé.
+   Decisão do docente em 23/09/2026 — adendo no handoff transversal. */
+
+@media (max-width: 820px) {
+  html {
+    scroll-snap-type: y mandatory;
+  }
+
+  .slide {
+    box-sizing: border-box;
+    min-height: 100vh;
+    scroll-snap-align: start;
+    padding-bottom: 40px;
+  }
+
+  @supports (height: 100svh) {
+    .slide {
+      min-height: 100svh;
+    }
+  }
+
+  /* a barra de orientação do topo não é cartão */
+  .barra-aluno {
+    scroll-snap-align: none;
+  }
+}
