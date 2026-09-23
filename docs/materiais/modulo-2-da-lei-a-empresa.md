@@ -409,11 +409,64 @@ resposta enquanto ela estiver de pé.
 
 ---
 
-## 5. Pessoas: quem participa da relação jurídica
+## 5. A relação jurídica e as pessoas que a ocupam
 
 Volte ao segundo problema da distribuidora: o gerente assinou a compra da empilhadeira — e
-quem deve é a empresa ou ele? A resposta exige o vocabulário mais básico do Direito Civil: o
-das **pessoas**.
+quem deve é a empresa ou ele? Antes de responder, vale parar um instante e nomear a estrutura
+que está por trás da pergunta. Ela vai se repetir em tudo o que vem daqui até o fim do curso.
+
+### 5.1 A relação jurídica e suas peças — um vocabulário instrumental
+
+O Direito pressupõe três elementos, e a formulação clássica está na abertura de Pinto Martins:
+**sujeito**, **objeto** e **relação**. Todo direito tem um sujeito — uma pessoa, física ou
+jurídica; um objeto — o bem ou a vantagem que a ordem jurídica assegura; e a relação — o
+vínculo que a ordem jurídica protege entre um e outro. É desse tripé que sai o conceito
+central deste módulo: **relação jurídica** é o vínculo entre pessoas, regulado pelo Direito,
+em que uma pode exigir da outra uma conduta. Quem pode exigir está no **polo ativo**; quem
+deve prestar, no **polo passivo** — credor e devedor são o exemplo mais familiar. E o
+acontecimento que faz a relação nascer, mudar ou acabar é o seu **fato gerador**: um fato, um
+ato ou um negócio jurídico, a escada que o tópico 7 sobe degrau por degrau.
+
+Quem pode ocupar um polo é o **sujeito de direito**: o titular de direitos e deveres. É a
+porta de entrada do restante deste tópico — pessoas físicas e jurídicas são as duas formas que
+o sujeito de direito assume.
+
+Dentro da relação, os sujeitos ocupam **posições** diferentes, e cada uma tem nome. O quadro
+abaixo é um vocabulário de bolso: não é para decorar, é para reconhecer quando aparecer.
+
+| Posição | Pergunta que responde | Na empresa |
+|---|---|---|
+| **Direito objetivo** | Qual é a regra posta? | A lei, o regulamento, a convenção coletiva |
+| **Direito subjetivo** | O que *eu* posso exigir com base nela? | O direito de cobrar o preço da mercadoria entregue |
+| **Dever jurídico** | O que devo prestar a alguém? | Pagar o fornecedor no vencimento |
+| **Pretensão** | O que posso exigir quando o dever é descumprido? | A cobrança que nasce do atraso — e é ela que prescreve com o tempo |
+| **Faculdade** | O que posso fazer sem que ninguém me deva nada? | Vender ou não vender; contratar ou não contratar |
+| **Ônus** | O que devo fazer *no meu próprio interesse*? | Registrar o contrato, guardar a nota fiscal, provar o que alego — ninguém cobra, mas quem não faz perde a vantagem |
+| **Responsabilidade** | Em que posição caio quando violo um dever? | O dever secundário de reparar o dano causado |
+| **Sanção** | Qual é a consequência institucional prevista? | Multa, interdição, execução — a coercibilidade do Módulo 1 em ato |
+
+Direito subjetivo e dever jurídico são as duas faces da mesma moeda — é a **bilateralidade**
+que a turma conhece do Módulo 1: não existe um sem o outro. E o **ônus** merece atenção
+especial de quem administra, porque é a categoria mais presente no dia a dia da gestão e a
+menos conhecida pelo nome: ninguém pode obrigar a empresa a documentar suas operações, mas é
+ela quem perde quando não consegue provar o que fez.
+
+Fecham o vocabulário três lentes de leitura. **De fato × de direito**: o que existe na
+realidade nem sempre coincide com o que existe para o Direito — a sociedade *de fato* (que
+opera sem registro), o administrador *de fato* (que age sem investidura formal), a situação
+consolidada *de fato*. Boa parte dos problemas deste módulo é exatamente o desencontro entre
+os dois planos. **Situação jurídica**: o estado em que um sujeito se encontra perante o
+Direito — proprietário, empregado, licitante, sócio —, mais largo que uma relação isolada,
+porque de uma mesma situação brotam várias relações. E **instituto jurídico**: o conjunto de
+normas organizado em torno de uma figura — o contrato, a sociedade limitada, a licitação. É a
+palavra que explica o próprio nome da disciplina: *instituições* de direito público e privado
+são os grandes institutos que este curso apresenta.
+
+### 5.2 Pessoas: quem pode ocupar os polos
+
+Com o vocabulário na mão, a pergunta da empilhadeira ganha forma técnica: **quem é o sujeito**
+daquela relação — a pessoa que assinou ou a organização por ela? A resposta exige o vocabulário
+mais básico do Direito Civil: o das **pessoas**.
 
 **Pessoa física** é o indivíduo. A personalidade civil — ser sujeito de direitos e deveres aos
 olhos da lei — começa com o nascimento com vida. A **capacidade** de exercer pessoalmente os
@@ -702,8 +755,9 @@ sem esse amparo.
 
 ## 8. A relação jurídica na empresa: onde público e privado se encontram
 
-Junte agora as peças. Uma **relação jurídica** tem sujeitos (as pessoas do tópico 5), um
-objeto (os bens do tópico 6) e nasce de um fato, ato ou negócio (tópico 7) — tudo isso sob
+Junte agora as peças. Uma **relação jurídica** — o vínculo que o tópico 5 armou peça por
+peça — tem sujeitos (as pessoas do tópico 5), um objeto (os bens do tópico 6) e nasce de um
+fato, ato ou negócio (tópico 7) — tudo isso sob
 normas cuja vigência e leitura você domina desde os tópicos 1 a 4. A compra da empilhadeira da
 abertura, decomposta: a sociedade é o sujeito; a máquina, bem móvel, é o objeto; a assinatura
 do representante é o ato; o contrato, o negócio; a entrega com defeito seria o fato que faz
@@ -801,6 +855,11 @@ tropeça nas duas.
   indica os efeitos do que invalida, considera a realidade do gestor, responde pessoalmente só
   por **dolo ou erro grosseiro** — e a resposta a consulta formal **vincula o órgão** que a
   emitiu.
+- **Relação jurídica** é o vínculo entre sujeitos, regulado pelo Direito, com um objeto e um
+  fato gerador; dentro dela, as posições têm nome — direito subjetivo e dever (as duas faces),
+  pretensão, faculdade, **ônus** (o dever no próprio interesse), responsabilidade e sanção — e
+  a lente **de fato × de direito** separa o que existe na realidade do que existe para o
+  Direito.
 - **Pessoa física** ganha personalidade ao nascer com vida e capacidade plena aos dezoito;
   **pessoa jurídica** nasce com o **registro** do ato constitutivo, tem patrimônio distinto do
   dos sócios e age por representantes **nos limites** dos poderes definidos — e empresa
@@ -833,7 +892,8 @@ Fontes primárias, consultadas diretamente e na íntegra no portal da Presidênc
 
 Doutrina de apoio, na divisão fixada pela leitura dirigida da disciplina: MARTINS, Sérgio
 Pinto. *Instituições de direito público e privado*. 6. ed. São Paulo: Atlas, 2006 — fonte
-prioritária para a teoria da norma (tópicos 1 a 4) e apoio no bloco civil (pp. 211-227).
+prioritária para a teoria da norma (tópicos 1 a 4) e para o vocabulário da relação jurídica
+(pp. 5-6, onde cita Miguel Reale), com apoio no bloco civil (pp. 211-227).
 NUCCI, Guilherme de Souza. *Instituições de direito público e privado*. Rio de Janeiro:
 Forense, 2019 — fonte prioritária para o Direito Civil e Empresarial aplicados (tópicos 5
 a 8).
