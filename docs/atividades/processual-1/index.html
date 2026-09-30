@@ -38,5 +38,19 @@
   </main>
   <footer class="site-footer">Prof. Mario Bastos — IDPP — Administração — UniFamec — 2026.2.</footer>
   <script src="../../materiais/module-renderer.js?v=20260923"></script>
+  <script>
+  /* O conteudo entra por JS: reposiciona no caso indicado pela ancora quando a pagina
+     abre ja com #sec-... (link passado direto para a equipe). */
+  (function () {
+    var alvo = location.hash ? decodeURIComponent(location.hash.slice(1)) : '';
+    if (!alvo) return;
+    var inicio = Date.now();
+    var t = setInterval(function () {
+      var el = document.getElementById(alvo);
+      if (el) { clearInterval(t); el.scrollIntoView(); }
+      else if (Date.now() - inicio > 6000) { clearInterval(t); }
+    }, 120);
+  })();
+  </script>
 </body>
 </html>
