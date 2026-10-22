@@ -175,8 +175,10 @@ humanidade — e, se tentar, o Direito internacional o alcança.
 
 Se a forma sozinha não basta, o que se põe no lugar dela?
 
-A resposta mais influente veio de um retorno a **Immanuel Kant**, por uma corrente que se
-chamou **neokantismo** e que era o ar que os juristas alemães daquela geração respiravam.
+A resposta mais influente veio de um retorno a **Immanuel Kant**. Não ao neokantismo — escola
+anterior à guerra, da qual a própria teoria de Kelsen havia saído —, mas à exigência moral
+kantiana de respeito à pessoa. O símbolo dessa virada é Gustav Radbruch, ele mesmo formado no
+neokantismo, que em 1946 passou a sustentar que a injustiça extrema não é Direito.
 
 O núcleo é uma exigência que Kant formulou como **imperativo categórico** — categórico porque
 não admite condição: não é "se você quiser tal resultado, faça assim", é simplesmente "faça
@@ -219,7 +221,7 @@ jurídico para questioná-la — e ele começa aqui.
 
 ## 9. O velho Kelsen
 
-Uma nota final, e há algo de honesto nela.
+Uma nota final.
 
 Kelsen viveu até 1973 e continuou revisando a própria obra. Nos escritos finais, publicados
 após sua morte, mudou de posição sobre pontos importantes — entre eles o estatuto daquela
@@ -229,6 +231,12 @@ explica.
 
 Um pensador que passa a vida erguendo um edifício conceitual e reconhece, no fim, que a pedra
 fundamental é uma ficção útil não derruba o edifício. Mostra do que ele é feito.
+
+Uma precisão, para não confundir as coisas: essa revisão não aproximou Kelsen do direito
+natural nem fez dele um teórico dos direitos humanos. Até o fim, ele manteve a separação entre
+Direito e moral e o relativismo em matéria de valores. Sua contribuição duradoura ao Direito do
+pós-guerra foi institucional: a supremacia da Constituição, o tribunal constitucional e, no plano
+internacional, a paz pelo direito — jurisdição obrigatória e responsabilidade individual.
 
 ---
 
