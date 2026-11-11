@@ -1,0 +1,298 @@
+/* ==========================================================
+   deck-html-idpp.css
+   Instituicoes de Direito Publico e Privado - UniFamec - 2026.2
+   Prof. Mario Bastos
+
+   Derivado de deck-html-teoria.css (Direito Constitucional, FBBR).
+   Mesma engenharia de lamina: 1280x720, faixas de bloco, HUD de
+   ritmo, laminas opcionais, projecao-segura para gabarito e notas,
+   e regras de impressao para a copia do professor.
+
+   O que muda e apenas a pele: paleta azul e vermelha da UniFamec
+   no lugar do bordo e verde, e papel de fundo frio no lugar do creme.
+   A tipografia ja era sem serifa no sistema de origem.
+
+   NAO editar deck-html-teoria.css a partir daqui. Sao arquivos
+   independentes, para disciplinas e instituicoes diferentes.
+   ========================================================== */
+
+:root { --paper:#f4f6fa; --paper-warm:#ffffff; --ink:#16202e; --muted:#5a6b80; --accent:#123a6b; --accent-soft:#ccdaea; --line:#c6d3e2; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:"Aptos","Inter","Segoe UI",Arial,sans-serif; background:#18222e; color:var(--ink); }
+.deck { display:flex; flex-direction:column; gap:28px; align-items:center; padding:28px; }
+.slide { position:relative; width:1280px; height:720px; padding:56px 72px; overflow:hidden; background:var(--paper); color:var(--ink); box-shadow:0 20px 70px rgba(0,0,0,.35); }
+.slide::after { content:attr(data-slide); position:absolute; right:72px; bottom:32px; font-size:18px; color:var(--muted); }
+.title { display:flex; flex-direction:column; justify-content:center; }
+.title::before { content:""; position:absolute; inset:0 0 auto auto; width:360px; height:720px; background:linear-gradient(180deg,rgba(18,58,107,.12),rgba(18,58,107,0)); }
+.kicker { margin:0 0 18px; font-size:22px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; color:var(--accent); }
+h1 { max-width:940px; margin:0; font-size:58px; line-height:1.05; letter-spacing:0; }
+h2 { max-width:1000px; margin:0 0 28px; font-size:42px; line-height:1.1; letter-spacing:0; }
+.lead { max-width:920px; margin:28px 0 0; font-size:30px; line-height:1.25; }
+.rule { width:120px; height:6px; margin:30px 0 0; background:var(--accent); }
+.grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:40px; margin-top:42px; }
+.grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:28px; margin-top:42px; }
+.box { min-height:178px; padding:20px 24px; border-left:6px solid var(--accent); background:var(--paper-warm); }
+.box strong { display:block; margin-bottom:14px; font-size:28px; line-height:1.1; color:var(--accent); }
+.box.compact { min-height:112px; padding:16px 20px; }
+.box.compact strong { margin-bottom:8px; font-size:24px; }
+.box.compact .small { font-size:19px; line-height:1.28; }
+.small { margin:0; font-size:22px; line-height:1.35; }
+.footer { position:absolute; bottom:32px; left:72px; margin:0; max-width:860px; font-size:18px; line-height:1.3; color:var(--muted); }
+.visual-layout { display:grid; grid-template-columns:1.05fr .95fr; gap:36px; align-items:stretch; margin-top:30px; }
+.stack { display:grid; gap:18px; }
+.image-slot { min-height:376px; padding:24px; border:2px dashed var(--accent-soft); background:linear-gradient(135deg,rgba(18,58,107,.08),rgba(255,255,255,.82)),var(--paper-warm); display:flex; flex-direction:column; justify-content:flex-end; }
+.image-slot-label { margin:0 0 12px; font-size:18px; font-weight:750; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); }
+.image-prompt { margin:0; font-size:18px; line-height:1.3; color:#2b3a4d; }
+.activity-question { max-width:980px; margin:32px 0 0; font-size:38px; line-height:1.15; font-weight:750; }
+@media (min-width:821px) and (max-width:1320px) { .deck { align-items:flex-start; } .slide { transform:scale(calc((100vw - 56px)/1280)); transform-origin:top left; margin-bottom:calc((720px * ((100vw - 56px)/1280)) - 720px); } }
+@media print { body { background:#fff; } .deck { display:block; padding:0; } .slide { page-break-after:always; box-shadow:none; } }
+
+/* ==========================================================
+   CAMADA DE REGÊNCIA DE TEMPO, PROJEÇÃO SEGURA E LAYOUT DENSO
+   Acrescentada em 11/08/2026 para o Deck da Aula 01.
+   NADA foi removido do bloco acima: os decks dos Módulos 1 a 8,
+   de julho de 2026, continuam abrindo exatamente como antes.
+   As regras de projeção segura (gabarito e notas ocultos) só
+   valem para decks que declaram <body class="projecao-segura">.
+   ========================================================== */
+
+:root {
+  --accent-2: #b01f28;
+  --accent-2-soft: #f2ced1;
+}
+
+.slide { scroll-margin-top: 24px; }
+
+/* --- Caixas: variante secundária e variante mínima --- */
+.box.alt { border-left-color: var(--accent-2); }
+.box.alt strong { color: var(--accent-2); }
+.box.mini { min-height: 118px; padding: 14px 16px; }
+.box.mini strong { margin-bottom: 8px; font-size: 21px; }
+.box.mini .small { font-size: 19px; line-height: 1.28; }
+
+/* --- Grade de cinco colunas (incisos do art. 1º) --- */
+.grid-5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px; margin-top: 34px; }
+
+/* --- Tabela de três colunas --- */
+.table { display: grid; grid-template-columns: .8fr 1fr 1.15fr; border: 2px solid var(--line); background: var(--paper-warm); margin-top: 34px; }
+.table div { min-height: 86px; padding: 16px 18px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: 20px; line-height: 1.25; }
+.table div:nth-child(3n) { border-right: none; }
+.table .head { min-height: 54px; font-weight: 750; color: var(--accent); background: rgba(18, 58, 107, .08); }
+.table.duas { grid-template-columns: 1fr 1.35fr; }
+.table.duas div:nth-child(3n) { border-right: 1px solid var(--line); }
+.table.duas div:nth-child(2n) { border-right: none; }
+
+/* --- Citação em bloco --- */
+.quote { margin-top: 42px; padding: 30px 34px; border: 2px solid var(--line); background: rgba(255, 255, 255, .72); font-size: 32px; line-height: 1.25; }
+.quote.compacta { margin-top: 24px; padding: 22px 26px; font-size: 25px; line-height: 1.3; }
+
+/* --- Alternativas de questão objetiva --- */
+.choice { display: grid; gap: 12px; margin-top: 24px; }
+.choice div { padding: 12px 16px; background: var(--paper-warm); border-left: 5px solid var(--line); font-size: 21px; line-height: 1.22; }
+.choice .correct { border-left-color: var(--accent); font-weight: 750; }
+
+/* --- Etiquetas, avisos, cronograma e lista de fontes --- */
+.tag-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.tag { display: inline-flex; align-items: center; min-height: 42px; padding: 8px 14px; border: 1px solid var(--line); background: var(--paper-warm); color: var(--accent); font-size: 19px; font-weight: 750; }
+.notice { margin-top: 28px; padding: 18px 22px; border-left: 6px solid var(--accent-2); background: rgba(176, 31, 40, .08); font-size: 22px; line-height: 1.3; }
+.schedule { display: grid; grid-template-columns: 145px 1.05fr 1.25fr; border: 2px solid var(--line); background: var(--paper-warm); margin-top: 26px; }
+.schedule.four { grid-template-columns: 140px 1fr 1.2fr .8fr; }
+.schedule div { min-height: 52px; padding: 10px 12px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: 18px; line-height: 1.22; }
+.schedule.thin div { min-height: 44px; padding: 8px 11px; font-size: 17px; }
+.schedule div:nth-child(3n) { border-right: none; }
+.schedule.four div:nth-child(3n) { border-right: 1px solid var(--line); }
+.schedule.four div:nth-child(4n) { border-right: none; }
+.schedule .head { min-height: 44px; font-weight: 750; color: var(--accent); background: rgba(18, 58, 107, .08); }
+.source-list { display: grid; gap: 14px; margin-top: 30px; }
+.source-list div { padding: 14px 18px; border-left: 5px solid var(--accent); background: var(--paper-warm); font-size: 21px; line-height: 1.25; }
+.source-list strong { color: var(--accent); }
+
+/* --- Texto miúdo de rodapé interno --- */
+.micro { margin: 10px 0 0; color: var(--muted); font-size: 17px; line-height: 1.25; }
+
+/* --- Faixa superior de bloco e horário-alvo --- */
+.block-band { position: absolute; top: 0; left: 0; right: 0; z-index: 3; display: flex; align-items: center; gap: 14px; height: 34px; padding: 0 72px; background: rgba(18, 58, 107, .10); border-bottom: 1px solid var(--line); font-size: 17px; font-weight: 750; letter-spacing: .04em; text-transform: uppercase; color: var(--accent); }
+.block-band .clock { margin-left: auto; font-variant-numeric: tabular-nums; color: var(--muted); }
+.block-band .opt { padding: 2px 10px; background: rgba(176, 31, 40, .14); border: 1px solid rgba(176, 31, 40, .35); color: var(--accent-2); letter-spacing: .03em; }
+
+.slide.banded { padding-top: 74px; }
+.slide.banded.title { padding-top: 56px; }
+.title::before { z-index: 0; }
+.slide.title.banded::before { top: 34px; height: 686px; }
+
+/* --- Lâmina opcional: corte ao vivo sem prejuízo do núcleo --- */
+.slide.optional { background: repeating-linear-gradient(135deg, rgba(176, 31, 40, .035) 0 18px, rgba(176, 31, 40, 0) 18px 36px), var(--paper); }
+.slide.optional .block-band { background: rgba(176, 31, 40, .10); color: var(--accent-2); }
+body.hide-optional .slide.optional { display: none; }
+
+/* --- Marcas do professor: tecla M limpa para projeção neutra --- */
+body.sem-marcas .block-band .opt { display: none; }
+body.sem-marcas .slide.optional { background: var(--paper); }
+body.sem-marcas .slide.optional .block-band { background: rgba(18, 58, 107, .10); color: var(--accent); }
+body.sem-marcas .slide.optional::after { background: var(--accent); }
+
+/* --- Ajuste fino para lâminas densas --- */
+.slide.tight h2 { font-size: 38px; margin-bottom: 14px; }
+.slide.tight .schedule { margin-top: 16px; }
+.slide.tight .grid-3, .slide.tight .grid-2 { margin-top: 26px; }
+.slide.tight .table { margin-top: 20px; }
+
+/* --- Painel do professor: relógio real contra horário-alvo --- */
+.hud { position: fixed; left: 18px; bottom: 18px; z-index: 50; display: flex; align-items: center; gap: 16px; padding: 10px 16px; border-radius: 4px; background: rgba(22, 32, 46, .93); color: #f4f6fa; font-family: "Aptos", "Inter", "Segoe UI", Arial, sans-serif; font-size: 15px; line-height: 1.2; box-shadow: 0 8px 30px rgba(0, 0, 0, .4); }
+.hud .hud-item { display: flex; flex-direction: column; gap: 2px; }
+.hud .hud-label { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: #b9c6d6; }
+.hud .hud-value { font-size: 17px; font-weight: 750; font-variant-numeric: tabular-nums; }
+.hud .hud-value.late { color: #f2a3a8; }
+.hud .hud-value.ahead { color: #8fc2ef; }
+.hud .hud-help { max-width: 300px; font-size: 11px; line-height: 1.35; color: #b9c6d6; }
+body.hud-off .hud { display: none; }
+
+/* --- Projeção segura: gabarito e notas escondidos até a tecla --- */
+body.projecao-segura .choice .correct { border-left-color: var(--line); font-weight: 400; }
+body.projecao-segura.mostrar-gabarito .choice .correct { border-left-color: var(--accent); font-weight: 750; }
+body.projecao-segura .gabarito { visibility: hidden; }
+body.projecao-segura.mostrar-gabarito .gabarito { visibility: visible; }
+body.projecao-segura .nota-professor, body.projecao-segura .image-prompt { visibility: hidden; }
+body.projecao-segura.mostrar-notas .nota-professor, body.projecao-segura.mostrar-notas .image-prompt { visibility: visible; }
+body.projecao-segura .visual-layout > .quote { display: flex; align-items: center; margin-top: 0; align-self: stretch; }
+
+/* --- Impressão: o PDF é a cópia do professor --- */
+@media print {
+  .hud { display: none; }
+  .slide.optional { background: #fff; }
+  body.projecao-segura .gabarito,
+  body.projecao-segura .nota-professor,
+  body.projecao-segura .image-prompt { visibility: visible; }
+  body.projecao-segura .choice .correct { border-left-color: var(--accent); font-weight: 750; }
+}
+
+/* Variante compacta da tabela, para quadros de cinco ou mais linhas */
+.table.compacta div { min-height: 60px; padding: 11px 16px; font-size: 19px; line-height: 1.22; }
+.table.compacta .head { min-height: 46px; }
+
+/* Declaração de uso de IAG em exposição eletrônica (Portaria CNPq 2.664/2026, art. 9º, I, "c") */
+.declaracao-iag { margin: 30px 0 0; max-width: 940px; font-size: 16px; line-height: 1.32; color: var(--muted); }
+
+/* Aperto adicional em lâminas .tight densas (só afeta quem declara .tight) */
+.slide.tight .box { min-height: 148px; }
+.slide.tight .notice { margin-top: 18px; padding: 14px 20px; }
+.slide.tight .micro { margin-top: 8px; }
+
+/* Ênfase dentro do corpo da caixa não deve virar bloco (o .box strong é o título) */
+.box .small strong, .box .small em { display: inline; margin: 0; font-size: inherit; line-height: inherit; color: inherit; }
+.box .small strong { font-weight: 750; }
+.slide.tight .source-list { margin-top: 18px; gap: 10px; }
+.slide.tight .source-list div { padding: 10px 16px; font-size: 19px; line-height: 1.24; }
+.slide.tight .declaracao-iag { margin-top: 16px; font-size: 15px; }
+
+
+/* ==========================================================
+   LEITURA NO CELULAR
+   Abaixo de 820px a lamina deixa de ser um retangulo de
+   1280x720 reduzido por transform:scale (que tornava o texto
+   ilegivel: 42px viravam 11px num aparelho de 390px) e passa
+   a fluir como bloco de leitura, com altura livre e tipografia
+   recalculada. Mesmo arquivo, mesma URL, dois comportamentos.
+
+   Contexto: nesta disciplina nao ha data show. A aula e
+   conduzida e acompanhada pelo celular, e o numero do bloco
+   passa a ser o instrumento de regencia -- por isso ele vira
+   uma etiqueta grande no topo, e nao um discreto "3/11" no
+   canto inferior.
+   ========================================================== */
+
+/* Envolucro de rolagem das tabelas. Fora do celular ele nao
+   existe para o layout, entao a lamina 16:9 fica intacta. */
+.rolavel { display: contents; }
+.dica-rolagem { display: none; }
+
+@media (max-width: 820px) {
+
+  body { background: var(--paper); }
+  .deck { display: block; padding: 0; }
+
+  .slide {
+    display: flex; flex-direction: column;
+    width: 100%; height: auto; min-height: 0;
+    padding: 20px 18px 26px;
+    overflow: visible;
+    transform: none; margin-bottom: 0;
+    box-shadow: none;
+    border-top: 6px solid var(--accent);
+    border-bottom: 1px solid var(--line);
+    scroll-margin-top: 0;
+  }
+  .slide.banded { padding-top: 20px; }
+  .slide.title { justify-content: flex-start; }
+  .slide.title::before, .slide.title.banded::before { display: none; }
+
+  /* --- o numero do bloco, que substitui o dedo apontando a tela --- */
+  .slide::after {
+    order: -2; position: static; align-self: flex-start;
+    margin: 0 0 12px; padding: 5px 13px;
+    background: var(--accent); color: #fff;
+    font-size: 15px; font-weight: 750; letter-spacing: .04em;
+  }
+  .slide.optional::after { background: var(--accent-2); }
+
+  .block-band {
+    order: -1; position: static;
+    height: auto; margin: 0 -18px 16px; padding: 8px 18px;
+    font-size: 12px; line-height: 1.3;
+    flex-wrap: wrap; gap: 6px 12px;
+  }
+  .block-band .clock { display: none; }
+
+  /* --- tipografia --- */
+  .kicker { margin-bottom: 10px; font-size: 13px; letter-spacing: .09em; }
+  h1 { max-width: none; font-size: clamp(26px, 7.4vw, 40px); line-height: 1.12; }
+  h2, .slide.tight h2 { max-width: none; margin-bottom: 16px; font-size: clamp(21px, 5.9vw, 32px); line-height: 1.18; }
+  .lead { max-width: none; margin-top: 16px; font-size: clamp(17px, 4.4vw, 23px); line-height: 1.35; }
+  .small { font-size: 16px; line-height: 1.45; }
+  .micro { margin-top: 12px; font-size: 14px; line-height: 1.4; }
+  .rule { width: 76px; height: 5px; margin-top: 20px; }
+
+  /* --- caixas e grades viram coluna unica --- */
+  .grid-2, .grid-3, .grid-5,
+  .slide.tight .grid-2, .slide.tight .grid-3 { grid-template-columns: 1fr; gap: 12px; margin-top: 18px; }
+  .box, .box.mini, .box.compact, .slide.tight .box { min-height: 0; padding: 14px 16px; }
+  .box strong, .box.mini strong, .box.compact strong { margin-bottom: 7px; font-size: 17px; line-height: 1.25; }
+  .box .small, .box.mini .small, .box.compact .small { font-size: 16px; line-height: 1.45; }
+
+  .quote, .quote.compacta { margin-top: 18px; padding: 16px 18px; font-size: clamp(17px, 4.6vw, 24px); line-height: 1.35; }
+  .notice { margin-top: 18px; padding: 14px 16px; font-size: 16px; line-height: 1.45; }
+  .source-list { gap: 10px; margin-top: 18px; }
+  .source-list div { padding: 12px 14px; font-size: 16px; line-height: 1.45; }
+  .choice { margin-top: 16px; gap: 10px; }
+  .choice div { padding: 11px 13px; font-size: 16px; line-height: 1.4; }
+  .tag-row { gap: 8px; margin-top: 18px; }
+  .tag { min-height: 34px; padding: 6px 11px; font-size: 14px; }
+  .activity-question { max-width: none; margin-top: 18px; font-size: clamp(20px, 5.4vw, 28px); line-height: 1.25; }
+  .image-slot { min-height: 0; padding: 16px; }
+  .image-slot-label { font-size: 14px; }
+  .image-prompt { font-size: 15px; line-height: 1.4; }
+
+  /* --- tabelas: rolam de lado, para nao destruir a comparacao ---
+     Empilhar em uma coluna quebraria a matriz de dupla entrada
+     do modulo 1B, onde o cabecalho e que da sentido a celula. */
+  .rolavel { display: block; overflow-x: auto; margin: 18px -18px 0; padding: 0 18px; -webkit-overflow-scrolling: touch; }
+  .rolavel .table, .rolavel .schedule { margin-top: 0; min-width: 560px; }
+  .dica-rolagem { display: block; margin: 7px 0 0; font-size: 13px; color: var(--muted); }
+  .table div, .table.compacta div { min-height: 0; padding: 11px 12px; font-size: 15px; line-height: 1.35; }
+  .schedule div, .schedule.thin div { min-height: 0; padding: 9px 11px; font-size: 14px; line-height: 1.35; }
+  .table .head, .table.compacta .head, .schedule .head { min-height: 0; }
+
+  /* --- rodape e declaracao saem do ancoramento absoluto --- */
+  .footer {
+    order: 99; position: static; max-width: none;
+    margin-top: 22px; padding-top: 12px; border-top: 1px solid var(--line);
+    font-size: 13px; line-height: 1.4;
+  }
+  .declaracao-iag { order: 98; max-width: none; margin-top: 18px; font-size: 12px; line-height: 1.4; }
+
+  /* --- painel de ritmo: compacto, e so para quem conduz --- */
+  .hud { left: 8px; right: 8px; bottom: 8px; gap: 12px; padding: 7px 11px; font-size: 12px; }
+  .hud .hud-help { display: none; }
+  .hud .hud-value { font-size: 14px; }
+  .hud .hud-label { font-size: 10px; }
+}
