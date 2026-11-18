@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>IDPP - Revisão para a Avaliação Semestral - III Unidade</title>
+  <link rel="stylesheet" href="deck-html-idpp.css">
+  <style>
+  /* ajustes locais deste deck (a folha compartilhada não é alterada) */
+  .fala-layout { display: grid; gap: 40px; align-items: stretch; height: 560px; margin-top: 0; }
+  .fala-layout.foto-esq { grid-template-columns: 1fr 1.9fr; }
+  .fala-layout.foto-dir { grid-template-columns: 1.9fr 1fr; }
+  .fala-layout.foto-esq .fala-foto { order: -1; }
+  .fala-layout.foto-dir .fala-foto { order: 2; }
+  .fala-texto { display: flex; flex-direction: column; justify-content: center; }
+  .fala-texto h2 { font-size: 40px; line-height: 1.12; margin: 0 0 18px; }
+  .fala-texto .kicker { margin-bottom: 12px; }
+  .fala-foto { margin: 0; position: relative; height: 100%; overflow: hidden; border: 2px solid var(--line); }
+  .fala-foto img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .fala-foto figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 5px 10px; font-size: 13px; color: #fff; background: rgba(0, 0, 0, .55); }
+  .fala-texto .source-list { display: grid; gap: 12px; margin-top: 4px; }
+  .fala-texto .source-list div { font-size: 21px; line-height: 1.28; padding: 12px 16px; }
+  .fala-texto .notice { margin-top: 18px; font-size: 21px; padding: 14px 18px; }
+  .fala-texto .quote.compacta { margin-top: 6px; font-size: 22px; padding: 16px 20px; }
+  .fechamento { font-size: 30px; line-height: 1.3; margin: 6px 0 0; font-weight: 650; color: var(--ink); }
+  .table.quatro { grid-template-columns: .9fr 1fr 1fr 1.25fr; }
+  .table.quatro div:nth-child(3n) { border-right: 1px solid var(--line); }
+  .table.quatro div:nth-child(4n) { border-right: none; }
+  .table.compacta.mini div { min-height: 48px; padding: 9px 14px; font-size: 18px; }
+  .slide.quiz .kicker { margin-bottom: 8px; font-size: 20px; }
+  .slide.quiz h2 { font-size: 30px; line-height: 1.15; margin-bottom: 8px; }
+  .slide.quiz .quote.compacta { margin-top: 10px; padding: 14px 18px; font-size: 21px; line-height: 1.28; }
+  .slide.quiz .choice { margin-top: 12px; gap: 8px; }
+  .slide.quiz .choice div { padding: 8px 14px; font-size: 19px; line-height: 1.22; }
+  .slide.quiz .notice.gabarito { margin-top: 10px; padding: 10px 16px; font-size: 17px; line-height: 1.26; }
+  .creditos { columns: 2; column-gap: 34px; margin-top: 16px; font-size: 14.5px; line-height: 1.3; color: var(--ink); }
+  .creditos p { margin: 0 0 7px; break-inside: avoid; }
+  .passos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 30px; }
+  /* gabarito por toque: vale no celular, onde não há tecla G */
+  body.projecao-segura .slide.quiz.revela .gabarito { visibility: visible; }
+  body.projecao-segura .slide.quiz.revela .choice .correct { border-left-color: var(--accent); font-weight: 750; }
+  .slide.quiz { cursor: pointer; }
+  .dica-gabarito { display: none; }
+  @media (max-width: 820px) {
+    .fala-layout { display: block; height: auto; }
+    .fala-foto { height: 230px; margin-bottom: 16px; }
+    .fala-texto h2 { font-size: 26px; }
+    .fechamento { font-size: 20px; }
+    .passos { grid-template-columns: 1fr; }
+    .table.quatro, .table { overflow-x: auto; }
+    .creditos { columns: 1; }
+    .dica-gabarito { display: block; margin: 10px 0 0; font-size: 15px; color: var(--muted); }
+  }
+
+  </style>
+</head>
+<body class="projecao-segura" data-bloco="Revisão III Unidade" data-fim="20:10">
+  <main class="deck" aria-label="IDPP - Revisão para a Avaliação Semestral - III Unidade">
+
+    <section class="slide title banded" data-slide="1/44" data-alvo="18:30">
+      <div class="block-band"><span>Revisão · III Unidade</span><span class="clock">alvo 18:30</span></div>
+      <p class="kicker">IDPP · Administração · 2026.2 · III Unidade</p>
+<h1>Revisão para a Avaliação Semestral</h1>
+<p class="lead">Os dez conceitos que a prova cobra: o que cada um diz, como ele aparece num caso e como responder.</p>
+<div class="rule"></div>
+<p class="declaracao-iag">* Material elaborado com apoio de Inteligência Artificial Generativa — Claude (Anthropic) — para estruturação das lâminas e redação das questões simuladas. Fontes conferidas e responsabilidade integral do professor.</p>
+<p class="footer">UniFamec — Administração — 2º semestre — Prof. Mario Bastos — aula de 18/11/2026.</p>
+    </section>
+    <section class="slide banded tight" data-slide="2/44" data-alvo="18:32">
+      <div class="block-band"><span>Revisão · combinados</span><span class="clock">alvo 18:32</span></div>
+      <p class="kicker">Antes de começar</p>
+<h2>Como é a prova</h2>
+<div class="grid-3">
+<div class="box mini"><strong>Quarta-feira, 02/12</strong><p class="small">No nosso horário, 18:30 às 20:10. Individual, sem consulta, valendo 8,0.</p></div>
+<div class="box mini alt"><strong>Cai tudo o que estudamos</strong><p class="small">Módulos 1B, 1D, 2, 3 e 4. Os Módulos 1A e 1C não caem.</p></div>
+<div class="box mini"><strong>Dez questões</strong><p class="small">Sete objetivas, com quatro alternativas e uma só certa. Três discursivas, de poucas linhas.</p></div>
+</div>
+<div class="notice">Regra de hoje: <strong>vocês respondem primeiro, discutimos depois, e só então aparece o gabarito.</strong> Errar aqui é de graça.</div>
+    </section>
+    <section class="slide banded tight" data-slide="3/44" data-alvo="18:34">
+      <div class="block-band"><span>Revisão · esquema</span><span class="clock">alvo 18:34</span></div>
+      <p class="kicker">Esquema</p>
+<h2>O caminho de hoje acompanha a prova</h2>
+<div class="table duas compacta">
+<div class="head">Bloco</div><div class="head">O que se revisa</div>
+<div><strong>1 a 3 · conceitos</strong></div><div>Norma jurídica · vigência da lei · pessoa jurídica</div>
+<div><strong>4 a 7 · aplicação</strong></div><div>Estado, governo e Administração · hierarquia das normas · legalidade · Administração Direta e Indireta</div>
+<div><strong>8 a 10 · discursivas</strong></div><div>Relação jurídica · poder de polícia · ordem ilegal na Administração</div>
+<div><strong>Em cada bloco</strong></div><div>O conceito, o desenvolvimento, a ideia para levar e uma questão simulada parecida com a da prova — sem ser igual</div>
+</div>
+    </section>
+    <section class="slide banded" data-slide="4/44" data-alvo="18:37">
+      <div class="block-band"><span>1 · Norma jurídica</span><span class="clock">alvo 18:37</span></div>
+      <div class="fala-layout foto-esq"><figure class="fala-foto"><img src="imagens/q1a.jpg" alt="Estátua de Têmis, com a balança e a espada" style="object-position: 50% 30%"><figcaption>Deiadameian · CC BY-SA 4.0 · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Questão 1 · Módulo 1B</p><h2>Norma jurídica: a regra que o Estado garante</h2><div class="source-list">
+<div><strong>O Estado reconhece:</strong> ela pertence ao sistema jurídico, posta por quem podia e do jeito devido.</div>
+<div><strong>Obriga sem concordância:</strong> vale para quem concorda e para quem discorda.</div>
+<div><strong>Descumprida, gera consequência exigível:</strong> alguém pode cobrá-la, e a autoridade pode impô-la.</div>
+</div></div></div>
+    </section>
+    <section class="slide banded tight" data-slide="5/44" data-alvo="18:39">
+      <div class="block-band"><span>1 · Norma jurídica</span><span class="clock">alvo 18:39</span></div>
+      <p class="kicker">Desenvolvimento</p>
+<h2>Regra social e norma jurídica, lado a lado</h2>
+<div class="table compacta">
+<div class="head">Critério</div><div class="head">Regra social ou moral</div><div class="head">Norma jurídica</div>
+<div>Vale por quê</div><div>Pela adesão de quem a aceita</div><div>Pela imposição do Estado, queira-se ou não</div>
+<div>Quantos lados</div><div>Olha só para quem age</div><div>Bilateral: cria o dever de um e o poder de exigir de outro</div>
+<div>Se descumprida</div><div>Reprovação, constrangimento</div><div>Sanção organizada: multa, interdição, execução</div>
+<div>Quem cobra</div><div>O grupo, informalmente</div><div>A autoridade pública, com base em norma</div>
+<div>Exemplo</div><div>Respeitar a fila, cumprimentar o cliente</div><div>Exigência sanitária, recolhimento de tributo</div>
+</div>
+<p class="micro">Martins (2006): a moral é unilateral e autônoma; o Direito, bilateral e heterônomo.</p>
+    </section>
+    <section class="slide banded" data-slide="6/44" data-alvo="18:41">
+      <div class="block-band"><span>1 · Norma jurídica</span><span class="clock">alvo 18:41</span></div>
+      <div class="fala-layout foto-dir"><figure class="fala-foto"><img src="imagens/q1b.jpg" alt="Placa de parada obrigatória" style="object-position: 50% 50%"><figcaption>Bidgee · CC BY 3.0 · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Para levar</p><h2>A pergunta que resolve</h2><p class="fechamento">Se eu descumprir, alguém pode exigir o cumprimento com base em norma do Estado?</p>
+<div class="notice">Se sim, é norma jurídica. E <strong>discordar dela não dispensa de cumpri-la</strong>: "eu não concordo" nunca foi defesa.</div></div></div>
+    </section>
+    <section class="slide banded quiz" data-slide="7/44" data-alvo="18:43">
+      <div class="block-band"><span>1 · Norma jurídica</span><span class="clock">alvo 18:43</span></div>
+      <p class="kicker">Questão simulada 1</p><h2>Qual das duas é norma jurídica?</h2><div class="quote compacta">Numa empresa, há dois hábitos. I. Os colegas costumam levar bolo no aniversário de quem faz anos. II. A empresa mantém o alvará de funcionamento exigido por lei municipal, sob pena de multa e interdição.</div><div class="choice"><div>A. As duas, porque ambas são seguidas por todos na empresa há muito tempo.</div><div class="correct">B. Só a II, porque obriga sem concordância e a autoridade pode cobrá-la.</div><div>C. Só a I, porque nasceu da vontade dos próprios colegas de trabalho dela.</div><div>D. Nenhuma, porque as duas dependem da concordância de quem as cumpre.</div></div><p class="dica-gabarito">Toque na questão para ver o gabarito.</p><p class="notice gabarito">Gabarito: <strong>B</strong>. <b>A</b> Ser seguida por todos não torna a regra jurídica. <b>C</b> Nascer da vontade do grupo é traço da regra social. <b>D</b> A II obriga mesmo contra a vontade.</p>
+    </section>
+    <section class="slide banded" data-slide="8/44" data-alvo="18:45">
+      <div class="block-band"><span>2 · Vigência da lei</span><span class="clock">alvo 18:45</span></div>
+      <div class="fala-layout foto-esq"><figure class="fala-foto"><img src="imagens/q2a.jpg" alt="Gravura de uma impressora de jornal" style="object-position: 50% 50%"><figcaption>Samuel Loxton (artist) · Public domain · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Questão 2 · Módulo 2</p><h2>Publicada não é o mesmo que valendo</h2><div class="quote compacta">"Salvo disposição contrária, a lei começa a vigorar em todo o país quarenta e cinco dias depois de oficialmente publicada." (LINDB, art. 1º)</div>
+<div class="source-list">
+<div><strong>Vacância:</strong> o intervalo entre a publicação e a entrada em vigor, para que todos se preparem.</div>
+<div><strong>"Salvo disposição contrária":</strong> se a própria lei fixar a data, vale a data dela.</div>
+</div></div></div>
+    </section>
+    <section class="slide banded tight" data-slide="9/44" data-alvo="18:48">
+      <div class="block-band"><span>2 · Vigência da lei</span><span class="clock">alvo 18:48</span></div>
+      <p class="kicker">Desenvolvimento</p>
+<h2>Os três momentos de uma lei, e o que a empresa faz em cada um</h2>
+<div class="table">
+<div class="head">Momento</div><div class="head">O que já aconteceu</div><div class="head">O que a empresa faz</div>
+<div>Projeto em tramitação</div><div>Nada obriga ainda</div><div>Acompanha e, se for o caso, participa da discussão</div>
+<div>Lei publicada</div><div>Existe, mas pode ainda não obrigar</div><div>Lê a cláusula de vigência e planeja a adequação</div>
+<div>Lei em vigor</div><div>Obriga a todos</div><div>Está adequada: ninguém se escusa alegando que não a conhece</div>
+</div>
+    </section>
+    <section class="slide banded" data-slide="10/44" data-alvo="18:50">
+      <div class="block-band"><span>2 · Vigência da lei</span><span class="clock">alvo 18:50</span></div>
+      <div class="fala-layout foto-dir"><figure class="fala-foto"><img src="imagens/q2b.jpg" alt="Calendário de parede" style="object-position: 50% 50%"><figcaption>Claudio Elias · Public domain · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Para levar</p><h2>Duas perguntas, nesta ordem</h2><p class="fechamento">1. A lei diz quando entra em vigor? Então vale a data dela.<br>2. Não diz? Quarenta e cinco dias depois da publicação oficial.</p>
+<div class="notice">A vigência não depende de fiscal, de aviso à empresa nem de regulamento: conta-se da <strong>publicação oficial</strong>.</div></div></div>
+    </section>
+    <section class="slide banded quiz" data-slide="11/44" data-alvo="18:52">
+      <div class="block-band"><span>2 · Vigência da lei</span><span class="clock">alvo 18:52</span></div>
+      <p class="kicker">Questão simulada 2</p><h2>A partir de quando a lei obriga?</h2><div class="quote compacta">Uma lei federal sobre embalagens de alimentos foi publicada no Diário Oficial da União. O último artigo diz: "Esta Lei entra em vigor na data de sua publicação." A gerente acha que tem quarenta e cinco dias para se adequar.</div><div class="choice"><div>A. Daqui a quarenta e cinco dias, porque esse é sempre o prazo para qualquer lei.</div><div>B. Só depois que o fiscal visitar a empresa e entregar uma notificação formal.</div><div class="correct">C. Desde a publicação, porque a própria lei fixou a data em que entra em vigor.</div><div>D. Só depois que um decreto regulamentar a lei e explicar como cumpri-la.</div></div><p class="dica-gabarito">Toque na questão para ver o gabarito.</p><p class="notice gabarito">Gabarito: <strong>C</strong>. Os quarenta e cinco dias valem "salvo disposição contrária" — e aqui há disposição contrária. <b>A</b> Ignora a ressalva da LINDB. <b>B</b> e <b>D</b> A vigência não depende de fiscal nem de regulamento.</p>
+    </section>
+    <section class="slide banded" data-slide="12/44" data-alvo="18:54">
+      <div class="block-band"><span>3 · Pessoa jurídica</span><span class="clock">alvo 18:54</span></div>
+      <div class="fala-layout foto-esq"><figure class="fala-foto"><img src="imagens/q3a.jpg" alt="Caminhão com contêiner numa avenida" style="object-position: 50% 60%"><figcaption>Amuzujoe · CC BY-SA 4.0 · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Questão 3 · Módulo 2</p><h2>A sociedade é alguém distinto dos sócios</h2><div class="source-list">
+<div><strong>Nasce com o registro</strong> do ato constitutivo — o contrato social, na sociedade limitada.</div>
+<div><strong>Tem patrimônio próprio:</strong> o da sociedade responde pelas dívidas dela; o dos sócios, pelas deles.</div>
+<div><strong>Age por pessoas físicas, dentro de limites:</strong> "Obrigam a pessoa jurídica os atos dos administradores, exercidos nos limites de seus poderes definidos no ato constitutivo." (Código Civil, art. 47)</div>
+</div></div></div>
+    </section>
+    <section class="slide banded tight" data-slide="13/44" data-alvo="18:57">
+      <div class="block-band"><span>3 · Pessoa jurídica</span><span class="clock">alvo 18:57</span></div>
+      <p class="kicker">Desenvolvimento</p>
+<h2>Até onde vai o que o sócio arrisca</h2>
+<div class="table compacta">
+<div class="head">Tipo</div><div class="head">O que o sócio arrisca</div><div class="head">Onde está</div>
+<div>Sociedade limitada</div><div>O valor das suas quotas; e, enquanto o capital não estiver todo integralizado, solidariamente o que falta</div><div>Código Civil, art. 1.052</div>
+<div>Sociedade anônima</div><div>O preço de emissão das ações que subscreveu ou adquiriu</div><div>Código Civil, art. 1.088</div>
+<div>Sociedade em nome coletivo</div><div>Todo o patrimônio pessoal, solidariamente</div><div>Código Civil, art. 1.039</div>
+<div>Sociedade sem registro</div><div>Todo o patrimônio pessoal, solidariamente</div><div>Código Civil, art. 990</div>
+</div>
+<div class="notice">Quando a proteção cai: havendo <strong>abuso</strong> — desvio de finalidade ou confusão patrimonial —, o juiz pode desconsiderar a personalidade jurídica e alcançar quem se beneficiou (Código Civil, art. 50).</div>
+    </section>
+    <section class="slide banded" data-slide="14/44" data-alvo="18:59">
+      <div class="block-band"><span>3 · Pessoa jurídica</span><span class="clock">alvo 18:59</span></div>
+      <div class="fala-layout foto-dir"><figure class="fala-foto"><img src="imagens/q3b.jpg" alt="Aperto de mãos num acordo de negócios" style="object-position: 50% 50%"><figcaption>rawpixel.com · CC0 · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Para levar</p><h2>Contrato dentro dos poderes, dívida da sociedade</h2><p class="fechamento">Na limitada com capital integralizado, a dívida contraída pelo administrador dentro dos seus poderes é da sociedade — e só dela.</p>
+<div class="notice">Não deve quem assinou por ela, nem os sócios por serem donos. A resposta muda se houver excesso de poderes, capital não integralizado ou uso da empresa como escudo.</div></div></div>
+    </section>
+    <section class="slide banded quiz" data-slide="15/44" data-alvo="19:01">
+      <div class="block-band"><span>3 · Pessoa jurídica</span><span class="clock">alvo 19:01</span></div>
+      <p class="kicker">Questão simulada 3</p><h2>O fornecedor pode penhorar a casa da sócia?</h2><div class="quote compacta">A Padaria Trigo Fino Ltda., sociedade limitada com capital integralizado, comprou um forno industrial em dez parcelas. Assinou a administradora, com poderes no contrato social. As parcelas atrasaram, e o fornecedor quer penhorar a casa de uma das sócias.</div><div class="choice"><div class="correct">A. Não: a dívida é da sociedade; na limitada, a sócia arrisca só suas quotas.</div><div>B. Sim: na sociedade limitada, os sócios respondem com todo o patrimônio pessoal.</div><div>C. Sim: a sócia responde porque a administradora agiu em nome da sociedade.</div><div>D. Não: como a sociedade não tem dinheiro, a dívida deixa de existir para todos.</div></div><p class="dica-gabarito">Toque na questão para ver o gabarito.</p><p class="notice gabarito">Gabarito: <strong>A</strong>. <b>B</b> Descreve a sociedade em nome coletivo, não a limitada. <b>C</b> Agir pela sociedade obriga a sociedade, não os sócios. <b>D</b> A dívida continua a existir; quem responde é a sociedade.</p>
+    </section>
+    <section class="slide banded" data-slide="16/44" data-alvo="19:03">
+      <div class="block-band"><span>4 · Estado, governo e Administração</span><span class="clock">alvo 19:03</span></div>
+      <div class="fala-layout foto-esq"><figure class="fala-foto"><img src="imagens/q4a.jpg" alt="Palácio do Planalto, em Brasília" style="object-position: 50% 55%"><figcaption>Senado Federal · CC BY 2.0 · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Questão 4 · Módulo 3</p><h2>Três palavras que não se misturam</h2><div class="source-list">
+<div><strong>Estado:</strong> a organização de um povo, num território, sob um poder soberano (Nucci, 2019). Permanente.</div>
+<div><strong>Governo:</strong> o grupo que exerce o poder político por um período, com um programa. Muda a cada eleição.</div>
+<div><strong>Administração Pública:</strong> a máquina de órgãos, entidades e servidores que executa. É permanente e serve a todo e qualquer governo.</div>
+</div></div></div>
+    </section>
+    <section class="slide banded tight" data-slide="17/44" data-alvo="19:05">
+      <div class="block-band"><span>4 · Estado, governo e Administração</span><span class="clock">alvo 19:05</span></div>
+      <p class="kicker">Desenvolvimento</p>
+<h2>Estado, governo e Administração, critério por critério</h2>
+<div class="table quatro compacta mini">
+<div class="head">Critério</div><div class="head">Estado</div><div class="head">Governo</div><div class="head">Administração Pública</div>
+<div>Duração</div><div>Permanente</div><div>Dura o mandato</div><div>Permanente, na estrutura</div>
+<div>Muda com a eleição?</div><div>Não</div><div>Sim</div><div>Não; mudam os ocupantes dos cargos de confiança</div>
+<div>Quem compõe</div><div>Povo, território, soberania</div><div>Eleitos e auxiliares de confiança</div><div>Concursados, comissionados (livre nomeação) e terceirizados ao redor</div>
+<div>O que faz</div><div>Decide por último no território</div><div>Fixa o rumo e as prioridades</div><div>Executa e aplica a lei, caso a caso</div>
+<div>A que se vincula</div><div>À Constituição</div><div>Ao programa, nos limites da lei</div><div>À lei: só faz o que ela prevê</div>
+</div>
+<p class="micro">Cargo em comissão é de livre nomeação e exoneração (Constituição, art. 37, II) e serve à direção, chefia e assessoramento (art. 37, V). Ter cargos assim não tira da Administração o caráter permanente.</p>
+    </section>
+    <section class="slide banded" data-slide="18/44" data-alvo="19:08">
+      <div class="block-band"><span>4 · Estado, governo e Administração</span><span class="clock">alvo 19:08</span></div>
+      <div class="fala-layout foto-dir"><figure class="fala-foto"><img src="imagens/q4b.jpg" alt="Urna eletrônica brasileira" style="object-position: 50% 50%"><figcaption>TSE -  Tribunal Superior Eleitoral · Public domain · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Para levar</p><h2>A eleição troca o governo, não a máquina</h2><p class="fechamento">O novo governo troca quem dirige — secretários, diretores, assessores de confiança. Não desfaz o quadro de carreira, nem os órgãos, nem os deveres legais.</p>
+<div class="notice">Para a empresa: contrato, processo e exigência legal continuam valendo no dia seguinte à posse.</div></div></div>
+    </section>
+    <section class="slide banded quiz" data-slide="19/44" data-alvo="19:10">
+      <div class="block-band"><span>4 · Estado, governo e Administração</span><span class="clock">alvo 19:10</span></div>
+      <p class="kicker">Questão simulada 4</p><h2>O que está errado na afirmação do secretário?</h2><div class="quote compacta">Recém-nomeado, o secretário municipal de Fazenda diz a um contador: "os pedidos de parcelamento protocolados na gestão passada morreram com o governo passado; protocolem tudo de novo".</div><div class="choice"><div>A. Ele confunde Estado com município, que é só uma parte do território nacional.</div><div>B. Ele confunde a Administração com o Judiciário, que é quem decide os pedidos.</div><div>C. Nada está errado: cada governo pode descartar o que a gestão anterior recebeu.</div><div class="correct">D. Ele confunde governo com Administração, que é permanente e segue com tudo.</div></div><p class="dica-gabarito">Toque na questão para ver o gabarito.</p><p class="notice gabarito">Gabarito: <strong>D</strong>. Os pedidos foram feitos à Administração, que não muda com a eleição. <b>A</b> Não é a distinção em jogo. <b>B</b> Pedido administrativo é decidido pela própria Administração. <b>C</b> É exatamente a confusão que a questão aponta.</p>
+    </section>
+    <section class="slide banded" data-slide="20/44" data-alvo="19:12">
+      <div class="block-band"><span>5 · Hierarquia das normas</span><span class="clock">alvo 19:12</span></div>
+      <div class="fala-layout foto-esq"><figure class="fala-foto"><img src="imagens/q5a.jpg" alt="Escadaria de pedra subindo" style="object-position: 40% 50%"><figcaption>Jules Verne Times Two · CC BY-SA 4.0 · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Questão 5 · Módulo 3</p><h2>Cada norma se apoia na de cima</h2><div class="quote compacta">As normas constitucionais são "dotadas de máxima hierarquia dentro do sistema" — Barroso (apud Nucci, 2019).</div>
+<div class="source-list">
+<div><strong>Abaixo da Constituição,</strong> as leis votadas pelo Legislativo.</div>
+<div><strong>Abaixo das leis,</strong> os atos que as detalham: decreto, portaria, instrução normativa.</div>
+<div><strong>Norma de baixo que contraria a de cima não se aplica.</strong></div>
+</div></div></div>
+    </section>
+    <section class="slide banded tight" data-slide="21/44" data-alvo="19:14">
+      <div class="block-band"><span>5 · Hierarquia das normas</span><span class="clock">alvo 19:14</span></div>
+      <p class="kicker">Desenvolvimento</p>
+<h2>Os atos abaixo da lei: para que servem</h2>
+<div class="table">
+<div class="head">Ato</div><div class="head">Quem edita</div><div class="head">Para quê</div>
+<div>Decreto regulamentar</div><div>Chefe do Executivo</div><div>Dar execução à lei, sem criar obrigação que ela não previu</div>
+<div>Portaria</div><div>Ministro, secretário, dirigente</div><div>Organizar o serviço e detalhar procedimento</div>
+<div>Instrução normativa</div><div>Órgão técnico, agência</div><div>Fixar o modo de cumprir uma exigência legal</div>
+</div>
+<div class="notice">O teste: <strong>o ato cria um dever novo?</strong> Então extrapolou. Ser mais novo, vir do prefeito ou já estar publicado não muda isso.</div>
+    </section>
+    <section class="slide banded" data-slide="22/44" data-alvo="19:16">
+      <div class="block-band"><span>5 · Hierarquia das normas</span><span class="clock">alvo 19:16</span></div>
+      <div class="fala-layout foto-dir"><figure class="fala-foto"><img src="imagens/q5b.jpg" alt="Plenário de uma Câmara Municipal" style="object-position: 50% 50%"><figcaption>Emerson Júnior GSF · CC BY-SA 4.0 · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Para levar</p><h2>Quem cria obrigação é a lei</h2><p class="fechamento">A obrigação nasce da lei, votada pelo Legislativo. O decreto e a portaria executam e detalham — não inventam dever.</p>
+<div class="notice">Cuidado com o critério cronológico: "a mais nova prevalece" só vale entre normas do <strong>mesmo nível</strong>. Entre níveis, decide a hierarquia.</div></div></div>
+    </section>
+    <section class="slide banded quiz" data-slide="23/44" data-alvo="19:19">
+      <div class="block-band"><span>5 · Hierarquia das normas</span><span class="clock">alvo 19:19</span></div>
+      <p class="kicker">Questão simulada 5</p><h2>A portaria obriga as farmácias?</h2><div class="quote compacta">Uma lei municipal exige que as farmácias afixem a tabela de preços na entrada. Uma portaria do secretário de Saúde, publicada depois, obriga também as farmácias a abrir aos domingos — exigência que a lei não faz.</div><div class="choice"><div>A. Obriga, porque a portaria tem a mesma força da lei que ela detalha.</div><div class="correct">B. Não obriga, porque a portaria não pode criar dever que a lei não criou.</div><div>C. Obriga, porque foi publicada depois da lei e por isso prevalece sobre ela.</div><div>D. Obriga apenas as farmácias que concordarem em abrir aos domingos.</div></div><p class="dica-gabarito">Toque na questão para ver o gabarito.</p><p class="notice gabarito">Gabarito: <strong>B</strong>. <b>A</b> Portaria está abaixo da lei. <b>C</b> O critério cronológico não vale entre níveis diferentes. <b>D</b> Norma válida não depende de concordância; aqui, o problema é que a portaria não podia criar o dever.</p>
+    </section>
+    <section class="slide banded" data-slide="24/44" data-alvo="19:21">
+      <div class="block-band"><span>6 · Princípio da legalidade</span><span class="clock">alvo 19:21</span></div>
+      <div class="fala-layout foto-esq"><figure class="fala-foto"><img src="imagens/q6a.jpg" alt="Capa de uma edição da Constituição de 1988" style="object-position: 50% 20%"><figcaption>Brazilian Government (text), Cosme Rocha (cover) · Public domain · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Questão 6 · Módulo 4</p><h2>A legalidade inverte a lógica do mundo privado</h2><div class="quote compacta">"A administração pública direta e indireta (...) obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência" (Constituição, art. 37).</div>
+<div class="source-list">
+<div><strong>O particular</strong> pode fazer tudo o que a lei não proíbe.</div>
+<div><strong>A Administração</strong> só pode fazer o que a lei prevê (Oliveira; Costa, 2016).</div>
+</div></div></div>
+    </section>
+    <section class="slide banded tight" data-slide="25/44" data-alvo="19:23">
+      <div class="block-band"><span>6 · Princípio da legalidade</span><span class="clock">alvo 19:23</span></div>
+      <p class="kicker">Desenvolvimento</p>
+<h2>O teste LIMPE: uma pergunta por princípio</h2>
+<div class="table compacta">
+<div class="head">Princípio</div><div class="head">A pergunta</div><div class="head">Violação típica</div>
+<div>Legalidade</div><div>Em que lei se funda?</div><div>Exigir documento que nenhuma norma prevê</div>
+<div>Impessoalidade</div><div>O critério foi o mesmo para quem está na mesma situação?</div><div>Dispensar um concorrente e exigir do outro</div>
+<div>Moralidade</div><div>Houve desvio para proveito particular?</div><div>Usar o cargo para favorecer um parente</div>
+<div>Publicidade</div><div>O ato foi publicado e motivado?</div><div>Excluir sem divulgar o motivo nem o prazo de recurso</div>
+<div>Eficiência</div><div>O meio era adequado ao resultado?</div><div>Demora injustificada, desperdício</div>
+</div>
+    </section>
+    <section class="slide banded" data-slide="26/44" data-alvo="19:25">
+      <div class="block-band"><span>6 · Princípio da legalidade</span><span class="clock">alvo 19:25</span></div>
+      <div class="fala-layout foto-dir"><figure class="fala-foto"><img src="imagens/q6b.jpg" alt="Carimbo datador sobre a mesa" style="object-position: 50% 50%"><figcaption>Dvortygirl · CC BY 4.0 · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Para levar</p><h2>"Sempre foi assim" não é fundamento</h2><p class="fechamento">Diante de qualquer exigência, a pergunta é uma só: qual norma a fundamenta?</p>
+<div class="notice">Sem norma, não há dever. O caminho é pedir, <strong>por escrito</strong>, a indicação da norma — o pedido documentado é a primeira peça de qualquer recurso.</div></div></div>
+    </section>
+    <section class="slide banded quiz" data-slide="27/44" data-alvo="19:27">
+      <div class="block-band"><span>6 · Princípio da legalidade</span><span class="clock">alvo 19:27</span></div>
+      <p class="kicker">Questão simulada 6</p><h2>Qual princípio a exigência contraria?</h2><div class="quote compacta">No protocolo da prefeitura, o servidor se recusa a receber o requerimento de uma empresa sem firma reconhecida em cartório. Nenhuma lei ou regulamento exige isso. Questionado, ele responde: "é norma da casa".</div><div class="choice"><div class="correct">A. Legalidade, porque a Administração só pode exigir aquilo que a lei prevê.</div><div>B. Publicidade, porque a exigência não foi divulgada antes no Diário Oficial.</div><div>C. Impessoalidade, porque o servidor tratou a empresa de forma diferente.</div><div>D. Eficiência, porque reconhecer firma deixa o atendimento mais demorado.</div></div><p class="dica-gabarito">Toque na questão para ver o gabarito.</p><p class="notice gabarito">Gabarito: <strong>A</strong>. "Norma da casa" não é norma. <b>B</b> Publicar a exigência não a tornaria válida. <b>C</b> Nada indica tratamento desigual. <b>D</b> O defeito não é a demora, é a falta de lei.</p>
+    </section>
+    <section class="slide banded" data-slide="28/44" data-alvo="19:30">
+      <div class="block-band"><span>7 · Administração Direta e Indireta</span><span class="clock">alvo 19:30</span></div>
+      <div class="fala-layout foto-esq"><figure class="fala-foto"><img src="imagens/q7a.jpg" alt="Fachada de uma agência do INSS, autarquia federal" style="object-position: 50% 50%"><figcaption>Senado Federal · CC BY 2.0 · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Questão 7 · Módulo 4</p><h2>Órgão ou entidade: quem responde</h2><div class="source-list">
+<div><strong>Administração Direta:</strong> órgãos — ministérios, secretarias — sem personalidade jurídica própria. Quem responde é o ente: União, Estado, Município.</div>
+<div><strong>Administração Indireta:</strong> entidades com personalidade jurídica própria, que contratam e respondem em nome próprio (Oliveira; Costa, 2016).</div>
+<div><strong>A autarquia</strong> é uma delas: pessoa jurídica de direito público, criada por lei.</div>
+</div></div></div>
+    </section>
+    <section class="slide banded tight" data-slide="29/44" data-alvo="19:32">
+      <div class="block-band"><span>7 · Administração Direta e Indireta</span><span class="clock">alvo 19:32</span></div>
+      <p class="kicker">Desenvolvimento</p>
+<h2>Com quem a empresa contratou, e contra quem cobra</h2>
+<div class="table compacta">
+<div class="head">Contratou com</div><div class="head">O que é</div><div class="head">Contra quem cobrar</div>
+<div>Secretaria municipal</div><div>Órgão da Administração Direta</div><div>O Município</div>
+<div>Autarquia</div><div>Pessoa jurídica de direito público; a lei a cria</div><div>A própria autarquia</div>
+<div>Empresa pública</div><div>Pessoa jurídica de direito privado, capital estatal; a lei autoriza</div><div>A própria empresa pública</div>
+<div>Sociedade de economia mista</div><div>Pessoa jurídica de direito privado, S.A., capital misto; a lei autoriza</div><div>A própria sociedade</div>
+</div>
+<div class="notice">A secretaria que <strong>supervisiona</strong> uma autarquia não responde pelas dívidas dela: supervisão não é hierarquia.</div>
+    </section>
+    <section class="slide banded" data-slide="30/44" data-alvo="19:34">
+      <div class="block-band"><span>7 · Administração Direta e Indireta</span><span class="clock">alvo 19:34</span></div>
+      <div class="fala-layout foto-dir"><figure class="fala-foto"><img src="imagens/q7b.jpg" alt="Fachada antiga da Prefeitura de Belo Horizonte" style="object-position: 50% 60%"><figcaption>Igor Bonfioli · CC0 · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Para levar</p><h2>Órgão, cobra-se o ente; entidade, cobra-se ela mesma</h2><p class="fechamento">Antes de cobrar, pergunte: com quem eu contratei tem personalidade jurídica própria?</p>
+<div class="notice">Secretaria, departamento, coordenadoria: são órgãos — responde o ente. Autarquia, fundação, empresa pública, sociedade de economia mista: respondem por si.</div></div></div>
+    </section>
+    <section class="slide banded quiz" data-slide="31/44" data-alvo="19:36">
+      <div class="block-band"><span>7 · Administração Direta e Indireta</span><span class="clock">alvo 19:36</span></div>
+      <p class="kicker">Questão simulada 7</p><h2>Contra quem a editora deve cobrar?</h2><div class="quote compacta">Uma editora vendeu livros didáticos para a Secretaria Municipal de Educação e emitiu a nota em nome dela. O pagamento não veio, e a editora quer saber contra quem cobrar.</div><div class="choice"><div>A. Contra a própria secretaria, que tem personalidade jurídica e contratou por si.</div><div>B. Contra o secretário de Educação, que é quem chefia a secretaria municipal.</div><div class="correct">C. Contra o Município, porque a secretaria é órgão sem personalidade própria.</div><div>D. Contra uma autarquia, porque toda secretaria é uma entidade descentralizada.</div></div><p class="dica-gabarito">Toque na questão para ver o gabarito.</p><p class="notice gabarito">Gabarito: <strong>C</strong>. Secretaria é órgão da Administração Direta. <b>A</b> Órgão não tem personalidade própria. <b>B</b> O secretário não é parte do contrato. <b>D</b> Secretaria resulta de desconcentração, não de descentralização.</p>
+    </section>
+    <section class="slide banded tight" data-slide="32/44" data-alvo="19:38">
+      <div class="block-band"><span>Discursivas · como responder</span><span class="clock">alvo 19:38</span></div>
+      <p class="kicker">Questões 8, 9 e 10</p>
+<h2>As discursivas: como escrever a resposta</h2>
+<div class="passos">
+<div class="box"><strong>1. Nomeie o conceito</strong><p class="small">Diga de que se trata: relação jurídica, poder de polícia, legalidade. É o nome que mostra que você reconheceu o caso.</p></div>
+<div class="box alt"><strong>2. Aplique ao caso</strong><p class="small">Use os nomes e os fatos da situação. Não basta definir: mostre onde o conceito aparece ali.</p></div>
+<div class="box"><strong>3. Decida e diga a consequência</strong><p class="small">Responda o que a pessoa deve fazer e o que acontece se fizer diferente.</p></div>
+</div>
+<div class="notice">Siga as perguntas do enunciado, <strong>na ordem</strong>, uma frase para cada. Não se exige número de artigo: exige-se o nome certo e o raciocínio.</div>
+    </section>
+    <section class="slide banded" data-slide="33/44" data-alvo="19:41">
+      <div class="block-band"><span>8 · Relação jurídica</span><span class="clock">alvo 19:41</span></div>
+      <div class="fala-layout foto-esq"><figure class="fala-foto"><img src="imagens/q8a.jpg" alt="Terminal rodoviário com área de embarque e boxes" style="object-position: 50% 50%"><figcaption>Amancio do Compromisso · CC BY-SA 4.0 · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Questão 8 · Módulo 2</p><h2>Toda relação jurídica tem duas pontas</h2><div class="source-list">
+<div><strong>Relação jurídica:</strong> vínculo entre pessoas, regulado pelo Direito, em que uma pode exigir da outra uma conduta (Martins, 2006).</div>
+<div><strong>Polo ativo:</strong> quem pode exigir. <strong>Polo passivo:</strong> quem deve prestar.</div>
+<div><strong>No contrato, as duas partes ocupam os dois polos</strong> ao mesmo tempo: cada uma deve algo e pode exigir algo.</div>
+</div></div></div>
+    </section>
+    <section class="slide banded tight" data-slide="34/44" data-alvo="19:43">
+      <div class="block-band"><span>8 · Relação jurídica</span><span class="clock">alvo 19:43</span></div>
+      <p class="kicker">Desenvolvimento</p>
+<h2>O vocabulário que a resposta usa</h2>
+<div class="table compacta">
+<div class="head">Posição</div><div class="head">Pergunta que responde</div><div class="head">No aluguel de uma loja</div>
+<div>Direito subjetivo</div><div>O que eu posso exigir?</div><div>O locatário pode exigir o uso do espaço</div>
+<div>Dever jurídico</div><div>O que eu devo prestar?</div><div>O locatário deve pagar o aluguel no prazo</div>
+<div>Pretensão</div><div>O que posso exigir quando o dever é descumprido?</div><div>A cobrança do aluguel atrasado</div>
+<div>Responsabilidade</div><div>Em que posição caio quando violo um dever?</div><div>Reparar o dano causado à outra parte</div>
+</div>
+    </section>
+    <section class="slide banded" data-slide="35/44" data-alvo="19:45">
+      <div class="block-band"><span>8 · Relação jurídica</span><span class="clock">alvo 19:45</span></div>
+      <div class="fala-layout foto-dir"><figure class="fala-foto"><img src="imagens/q8b.jpg" alt="Contrato com uma caneta sobre a mesa" style="object-position: 50% 50%"><figcaption>Blogtrepreneur · CC BY 2.0 · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Para levar</p><h2>Quem deve, e quem pode exigir</h2><p class="fechamento">Numa resposta sobre relação jurídica, diga quem são as partes e, para cada uma, o que deve e o que pode exigir.</p>
+<div class="notice">Direito subjetivo e dever jurídico são as duas faces da mesma moeda: não existe um sem o outro.</div></div></div>
+    </section>
+    <section class="slide banded quiz" data-slide="36/44" data-alvo="19:47">
+      <div class="block-band"><span>8 · Relação jurídica</span><span class="clock">alvo 19:47</span></div>
+      <p class="kicker">Questão simulada 8</p><h2>Qual afirmação descreve a relação?</h2><div class="quote compacta">A Gráfica Ponto Certo imprime, todo mês, os panfletos da Academia Movimento. A academia paga o valor combinado até o dia 10.</div><div class="choice"><div>A. Só a academia tem direitos; a gráfica tem apenas o dever de imprimir.</div><div>B. Só a gráfica tem direitos, porque é ela quem presta o serviço contratado.</div><div>C. Não há relação jurídica, porque as duas são empresas privadas comuns.</div><div class="correct">D. Cada parte deve e pode exigir algo: imprimir e cobrar; pagar e receber.</div></div><p class="dica-gabarito">Toque na questão para ver o gabarito.</p><p class="notice gabarito">Gabarito: <strong>D</strong>. No contrato, as duas ocupam os dois polos. <b>A</b> e <b>B</b> Enxergam só um lado da moeda. <b>C</b> Relação jurídica não depende de haver o Estado de um dos lados.</p>
+    </section>
+    <section class="slide banded" data-slide="37/44" data-alvo="19:50">
+      <div class="block-band"><span>9 · Poder de polícia</span><span class="clock">alvo 19:50</span></div>
+      <div class="fala-layout foto-esq"><figure class="fala-foto"><img src="imagens/q9a.jpg" alt="Termômetro de geladeira marcando a temperatura" style="object-position: 50% 50%"><figcaption>Tony Webster from Minneapolis, Minnesota, United States · CC BY 2.0 · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Questão 9 · Módulo 4</p><h2>Poder de polícia: limitar, com base na lei</h2><div class="source-list">
+<div><strong>O que é:</strong> a atividade administrativa que limita a liberdade e a propriedade dos particulares para satisfazer o interesse público, <strong>com base na lei</strong> (Oliveira; Costa, 2016).</div>
+<div><strong>Exemplos:</strong> fiscalização sanitária, embargo de obra, interdição, exigência de alvará.</div>
+<div><strong>O limite:</strong> o fiscal exige o que a norma manda exigir, e nada além.</div>
+</div></div></div>
+    </section>
+    <section class="slide banded tight" data-slide="38/44" data-alvo="19:52">
+      <div class="block-band"><span>9 · Poder de polícia</span><span class="clock">alvo 19:52</span></div>
+      <p class="kicker">Desenvolvimento</p>
+<h2>O que o fiscal pode, o que não pode, e o que a empresa faz</h2>
+<div class="table">
+<div class="head">O fiscal pode</div><div class="head">O fiscal não pode</div><div class="head">A empresa faz</div>
+<div>Exigir o que a norma prevê e aplicar a sanção prevista</div><div>Exigir o que nenhuma norma prevê, ainda que "para ficar melhor"</div><div>Cumpre o que tem base na norma e pede, por escrito, a norma do resto</div>
+<div>Interditar, quando a norma autoriza, sem ordem judicial prévia</div><div>Escolher sanção que a norma não prevê para aquele caso</div><div>Documenta a visita: fotos, termo, nome do fiscal</div>
+</div>
+    </section>
+    <section class="slide banded quiz" data-slide="39/44" data-alvo="19:54">
+      <div class="block-band"><span>9 · Poder de polícia</span><span class="clock">alvo 19:54</span></div>
+      <p class="kicker">Questão simulada 9</p><h2>A loja é obrigada a pintar a fachada?</h2><div class="quote compacta">O fiscal de posturas notifica uma loja porque a calçada está obstruída por mercadorias, o que a lei municipal proíbe. Na mesma visita, "sugere" que a loja pinte a fachada de outra cor, sem indicar norma que exija isso.</div><div class="choice"><div>A. É obrigada às duas coisas, porque o poder de polícia não tem limites.</div><div class="correct">B. A notificação vale; a pintura não obriga, pois não tem base em norma.</div><div>C. Nenhuma das duas vale, porque fiscalização depende de ordem judicial.</div><div>D. Só a pintura obriga, porque foi o próprio fiscal quem a determinou.</div></div><p class="dica-gabarito">Toque na questão para ver o gabarito.</p><p class="notice gabarito">Gabarito: <strong>B</strong>. O poder de polícia se exerce com base na lei. <b>A</b> Ele é amplo, mas não é livre. <b>C</b> A fiscalização não depende de ordem judicial prévia. <b>D</b> A vontade do fiscal não cria dever.</p>
+    </section>
+    <section class="slide banded" data-slide="40/44" data-alvo="19:56">
+      <div class="block-band"><span>10 · Ordem ilegal</span><span class="clock">alvo 19:56</span></div>
+      <div class="fala-layout foto-dir"><figure class="fala-foto"><img src="imagens/q10a.jpg" alt="Mesa de trabalho com celular, anotações e notebook" style="object-position: 50% 50%"><figcaption>JESHOOTS.COM jeshoots · CC0 · Wikimedia Commons</figcaption></figure><div class="fala-texto"><p class="kicker">Questão 10 · Módulos 3 e 4</p><h2>A hierarquia obriga a ordens legais</h2><div class="quote compacta">É dever do servidor "cumprir as ordens superiores, exceto quando manifestamente ilegais" (Lei nº 8.112/1990, art. 116, IV — estatuto federal).</div>
+<div class="source-list">
+<div><strong>A lei está acima da ordem do chefe:</strong> o que a lei não prevê não se faz por ordem, nem do superior.</div>
+<div><strong>Quem cumpre ordem manifestamente ilegal</strong> não se protege atrás dela: responde pessoalmente.</div>
+</div></div></div>
+    </section>
+    <section class="slide banded tight" data-slide="41/44" data-alvo="19:58">
+      <div class="block-band"><span>10 · Ordem ilegal</span><span class="clock">alvo 19:58</span></div>
+      <p class="kicker">Desenvolvimento</p>
+<h2>O roteiro da resposta, pergunta por pergunta</h2>
+<div class="table">
+<div class="head">A pergunta do enunciado</div><div class="head">O que escrever</div><div class="head">O conceito por trás</div>
+<div>O que fazer com a ordem?</div><div>Não cumprir; ou pedir a ordem por escrito, com o fundamento legal, e registrar</div><div>Hierarquia só para ordens legais</div>
+<div>Por quê?</div><div>A Administração só faz o que a lei prevê; favorecer um e cobrar dos outros fere também a impessoalidade</div><div>Legalidade e impessoalidade</div>
+<div>E se cumprir?</div><div>O ato é ilegal, pode ser contestado e anulado, e quem o praticou responde pessoalmente</div><div>Responsabilidade do agente</div>
+</div>
+    </section>
+    <section class="slide banded quiz" data-slide="42/44" data-alvo="20:01">
+      <div class="block-band"><span>10 · Ordem ilegal</span><span class="clock">alvo 20:01</span></div>
+      <p class="kicker">Questão simulada 10</p><h2>O que a servidora deve fazer?</h2><div class="quote compacta">O chefe do setor de alvarás manda, por mensagem, que a servidora libere o alvará de um amigo dele sem a vistoria que a lei exige para todos os estabelecimentos.</div><div class="choice"><div class="correct">A. Não cumprir, ou exigir a ordem por escrito: a lei está acima da ordem.</div><div>B. Cumprir, porque a hierarquia obriga a obedecer a qualquer ordem do chefe.</div><div>C. Cumprir, porque a responsabilidade pelo alvará fica toda com quem mandou.</div><div>D. Cumprir só se o amigo do chefe pagar a taxa normal do alvará que pediu.</div></div><p class="dica-gabarito">Toque na questão para ver o gabarito.</p><p class="notice gabarito">Gabarito: <strong>A</strong>. <b>B</b> A hierarquia obriga a ordens legais. <b>C</b> Quem pratica o ato ilegal também responde. <b>D</b> Pagar a taxa não supre a vistoria que a lei exige.</p>
+    </section>
+    <section class="slide banded tight" data-slide="43/44" data-alvo="20:03">
+      <div class="block-band"><span>Revisão · fecho</span><span class="clock">alvo 20:03</span></div>
+      <p class="kicker">Para 02/12</p>
+<h2>O que levar daqui</h2>
+<div class="grid-3">
+<div class="box mini"><strong>Uma ideia por questão</strong><p class="small">Cada objetiva cobra um conceito. Leia o caso, ache o conceito, descarte as alternativas que trocam a regra.</p></div>
+<div class="box mini alt"><strong>Discursiva: nome, caso, decisão</strong><p class="small">Siga as perguntas do enunciado, na ordem. Nomeie o conceito, aplique aos fatos, diga o que fazer e o que acontece.</p></div>
+<div class="box mini"><strong>Estude pelos módulos</strong><p class="small">Os quadros de destaque no fim dos tópicos trazem casos como os da prova, resolvidos passo a passo.</p></div>
+</div>
+<div class="notice">Prova: <strong>quarta-feira, 02/12/2026</strong>, no nosso horário. Individual, sem consulta, valendo 8,0.</div>
+    </section>
+    <section class="slide banded tight optional" data-slide="44/44" data-alvo="20:05">
+      <div class="block-band"><span>Revisão · referências</span><span class="clock">alvo 20:05</span></div>
+      <p class="kicker">Referências e créditos</p>
+<h2>De onde vieram o conteúdo e as imagens</h2>
+<p class="micro">Conteúdo: Módulos 1B, 2, 3 e 4 da disciplina; MARTINS, Sergio Pinto. <em>Instituições de direito público e privado</em>. São Paulo: Atlas, 2006; NUCCI, Guilherme de Souza. <em>Instituições de direito público e privado</em>. Rio de Janeiro: Forense, 2019; OLIVEIRA, João Rezende Almeida; COSTA, Tágory Figueiredo Martins. <em>Instituições de direito público e privado</em>. Florianópolis: UFSC/CAPES-UAB, 2016. Textos legais conferidos no Planalto. Imagens: Wikimedia Commons, nas licenças indicadas.</p>
+<div class="creditos"><p>1. <em>Themis lady of Justice statue in Amaliada Greece 02.jpg</em> — Deiadameian · CC BY-SA 4.0</p><p>2. <em>STOP sign.jpg</em> — Bidgee · CC BY 3.0</p><p>3. <em>Western Daily Press printing press 1908.jpg</em> — Samuel Loxton (artist) · Public domain</p><p>4. <em>WallCalendar.jpg</em> — Claudio Elias · Public domain</p><p>5. <em>Trailer Truck 5.jpg</em> — Amuzujoe · CC BY-SA 4.0</p><p>6. <em>Business agreement handshake at coffee shop.jpg</em> — rawpixel.com · CC0</p><p>7. <em>Palácio do Planalto em 2020.jpg</em> — Senado Federal · CC BY 2.0</p><p>8. <em>Urna eletrônica brasileira UE2020.jpg</em> — TSE -  Tribunal Superior Eleitoral · Public domain</p><p>9. <em>Stone staircase, Santuário da Peninha, Sintra, Portugal julesvernex2.jpg</em> — Jules Verne Times Two · CC BY-SA 4.0</p><p>10. <em>Auditório e Plenário da Câmara Municipal de Porangatu.jpg</em> — Emerson Júnior GSF · CC BY-SA 4.0</p><p>11. <em>CF88 Livro EC91 2016.png</em> — Brazilian Government (text), Cosme Rocha (cover) · Public domain</p><p>12. <em>Rubber stamp IMG 20190427 113849721 HDR.jpg</em> — Dvortygirl · CC BY 4.0</p><p>13. <em>Fachada do Instituto Nacional do Seguro Social (INSS) (47043470662).jpg</em> — Senado Federal · CC BY 2.0</p><p>14. <em>Fachada da Prefeitura de Belo Horizonte.jpg</em> — Igor Bonfioli · CC0</p><p>15. <em>Novo Terminal Rodoviário de Salvador 01.jpg</em> — Amancio do Compromisso · CC BY-SA 4.0</p><p>16. <em>Legal Contract &amp; Signature - Warm Tones.jpg</em> — Blogtrepreneur · CC BY 2.0</p><p>17. <em>Rubbermaid R80DC Refrigerator Freezer Thermometer (40251799920).jpg</em> — Tony Webster from Minneapolis, Minnesota, United States · CC BY 2.0</p><p>18. <em>White work table with notes, smartphone and laptop (Unsplash).jpg</em> — JESHOOTS.COM jeshoots · CC0</p></div>
+    </section>
+    <section class="slide banded tight" data-slide="Transparência" data-alvo="20:08">
+      <div class="block-band"><span>Transparência</span><span class="clock">alvo 20:08</span></div>
+      <p class="kicker">Como este material foi feito</p>
+      <h2>Declaração de uso de Inteligência Artificial Generativa</h2>
+      <p class="lead">As lâminas e as questões simuladas foram estruturadas e redigidas com apoio de Inteligência Artificial Generativa — Claude (Anthropic) —, a partir dos módulos da disciplina e da prova da III Unidade, sob direção, revisão e responsabilidade integral do professor.</p>
+      <p class="declaracao-iag">Portaria CNPq nº 2.664/2026. Textos legais conferidos no portal da Presidência da República; imagens de licença livre, com crédito na lâmina anterior.</p>
+    </section>
+
+  </main>
+
+  <div class="hud" id="hud" aria-hidden="true">
+    <div class="hud-item"><span class="hud-label">Lâmina</span><span class="hud-value" id="hud-slide">1/1</span></div>
+    <div class="hud-item"><span class="hud-label">Alvo</span><span class="hud-value" id="hud-alvo">--:--</span></div>
+    <div class="hud-item"><span class="hud-label">Agora</span><span class="hud-value" id="hud-agora">--:--</span></div>
+    <div class="hud-item"><span class="hud-label">Ritmo</span><span class="hud-value" id="hud-delta">-</span></div>
+    <p class="hud-help">setas navegam · F tela cheia · G gabarito · N notas · O oculta opcionais · M limpa tudo · H oculta este painel</p>
+  </div>
+
+  <script>
+  (function () {
+    var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
+    var hudSlide = document.getElementById('hud-slide');
+    var hudAlvo = document.getElementById('hud-alvo');
+    var hudAgora = document.getElementById('hud-agora');
+    var hudDelta = document.getElementById('hud-delta');
+    var atual = 0;
+    function visiveis() { return slides.filter(function (s) { return s.offsetParent !== null; }); }
+    function irPara(i) {
+      var lista = visiveis();
+      if (!lista.length) return;
+      i = Math.max(0, Math.min(lista.length - 1, i));
+      atual = i;
+      lista[i].scrollIntoView({ behavior: 'smooth', block: 'start' });
+      atualizarHud(lista[i], i, lista.length);
+    }
+    function minutos(hhmm) {
+      var p = (hhmm || '').split(':');
+      if (p.length !== 2) return null;
+      return parseInt(p[0], 10) * 60 + parseInt(p[1], 10);
+    }
+    function doisDigitos(n) { return (n < 10 ? '0' : '') + n; }
+    function atualizarHud(slide, i, total) {
+      if (!slide) return;
+      hudSlide.textContent = (i + 1) + '/' + total;
+      var alvo = slide.getAttribute('data-alvo') || '-';
+      hudAlvo.textContent = alvo;
+      var agora = new Date();
+      hudAgora.textContent = doisDigitos(agora.getHours()) + ':' + doisDigitos(agora.getMinutes());
+      var ma = minutos(alvo);
+      if (ma === null) { hudDelta.textContent = '-'; hudDelta.className = 'hud-value'; return; }
+      var d = (agora.getHours() * 60 + agora.getMinutes()) - ma;
+      hudDelta.textContent = (d > 0 ? '+' : '') + d + ' min';
+      hudDelta.className = 'hud-value ' + (d > 2 ? 'late' : (d < -2 ? 'ahead' : ''));
+    }
+    function reancorar() {
+      var lista = visiveis();
+      atual = Math.max(0, Math.min(lista.length - 1, atual));
+      if (lista[atual]) atualizarHud(lista[atual], atual, lista.length);
+    }
+    document.addEventListener('keydown', function (e) {
+      var k = e.key;
+      if (k === 'ArrowRight' || k === 'ArrowDown' || k === 'PageDown') { e.preventDefault(); irPara(atual + 1); }
+      else if (k === 'ArrowLeft' || k === 'ArrowUp' || k === 'PageUp') { e.preventDefault(); irPara(atual - 1); }
+      else if (k === 'Home') { e.preventDefault(); irPara(0); }
+      else if (k === 'End') { e.preventDefault(); irPara(visiveis().length - 1); }
+      else if (k === 'f' || k === 'F') {
+        if (!document.fullscreenElement) { document.documentElement.requestFullscreen(); }
+        else { document.exitFullscreen(); }
+      }
+      else if (k === 'g' || k === 'G') { document.body.classList.toggle('mostrar-gabarito'); }
+      else if (k === 'n' || k === 'N') { document.body.classList.toggle('mostrar-notas'); }
+      else if (k === 'o' || k === 'O') { document.body.classList.toggle('hide-optional'); reancorar(); }
+      else if (k === 'h' || k === 'H') { document.body.classList.toggle('hud-off'); }
+      else if (k === 'm' || k === 'M') {
+        document.body.classList.remove('mostrar-gabarito');
+        document.body.classList.remove('mostrar-notas');
+        document.body.classList.remove('hide-optional');
+        reancorar();
+      }
+    });
+    window.addEventListener('scroll', function () {
+      var lista = visiveis();
+      for (var i = 0; i < lista.length; i++) {
+        var r = lista[i].getBoundingClientRect();
+        if (r.top >= -200 && r.top <= window.innerHeight / 2) {
+          atual = i; atualizarHud(lista[i], i, lista.length); break;
+        }
+      }
+    }, { passive: true });
+    Array.prototype.forEach.call(document.querySelectorAll('.slide.quiz'), function (q) {
+      q.addEventListener('click', function () { q.classList.toggle('revela'); });
+    });
+    setInterval(function () { reancorar(); }, 20000);
+    irPara(0);
+  })();
+  </script>
+</body>
+</html>
