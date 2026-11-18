@@ -311,8 +311,8 @@ Esta é a distinção mais útil do tópico, e a mais maltratada no uso corrente
 **Governo** é o grupo que exerce o poder político por um período, com um programa e uma
 direção. Muda a cada eleição.
 
-**Administração Pública** é a máquina que executa: órgãos, servidores, procedimentos.
-Permanece, e serve a qualquer governo.
+**Administração Pública** é a máquina que executa: órgãos, entidades, servidores,
+procedimentos. É permanente e serve a todo e qualquer governo.
 
 Confundir os três gera erros caros. Contrato assinado com a Administração não se desfaz
 porque mudou o governo. Exigência legal não deixa de valer porque o prefeito é de outro
@@ -324,6 +324,67 @@ exerce por meio de representantes eleitos ou diretamente, nos termos desta Const
 duas vias, e as duas interessam à gestão — a representativa, dos mandatos; e a direta, que no
 cotidiano aparece como consulta pública, audiência pública e iniciativa popular, muitas vezes
 **antes** de uma norma técnica entrar em vigor.
+
+**Permanente não quer dizer que todos os que estão nela sejam permanentes.** A Administração
+é composta por gente com vínculos diferentes, e é preciso separar a **estrutura** da
+**composição**. A regra de entrada é o concurso: *"a investidura em cargo ou emprego público
+depende de aprovação prévia em concurso público de provas ou de provas e títulos, de acordo com
+a natureza e a complexidade do cargo ou emprego, na forma prevista em lei, ressalvadas as
+nomeações para cargo em comissão declarado em lei de livre nomeação e exoneração"*
+(Constituição, art. 37, II). A ressalva final abre espaço para os **cargos em comissão** — os
+chamados cargos de confiança, de livre nomeação e exoneração, ou *ad nutum* (expressão latina
+que quer dizer "à vontade", porque quem nomeia pode exonerar a qualquer tempo, sem precisar de
+motivo). Eles existem para uma finalidade definida: os cargos em comissão e as funções de
+confiança *"destinam-se apenas às atribuições de direção, chefia e assessoramento"*
+(art. 37, V). E há ainda os **terceirizados** — trabalhadores de empresas contratadas pela
+Administração para limpeza, vigilância, manutenção, que prestam serviço dentro dela sem serem
+servidores.
+
+Nada disso afasta o caráter permanente da Administração. Quando o governo muda, saem os
+ocupantes dos cargos de confiança e entram outros, escolhidos pela nova gestão; contratos de
+terceirização terminam e se renovam. Mas o órgão continua, a competência continua, os deveres
+legais continuam, e o quadro de servidores de carreira, admitidos por concurso, não se desfaz
+porque outro grupo venceu a eleição. O que é permanente é a **máquina**, não cada pessoa que a
+opera. A formulação correta, portanto, é esta: a Administração Pública **é permanente e serve
+a todo e qualquer governo** — ainda que parte dos seus cargos seja, legitimamente, de livre
+nomeação.
+
+| Critério | Estado | Governo | Administração Pública (sentido orgânico) |
+|---|---|---|---|
+| **O que é** | A organização de um povo, num território, sob um poder soberano | O grupo que exerce o poder político por um período, com um programa | A máquina que executa: órgãos, entidades e agentes |
+| **Duração** | Permanente | Temporária: dura o mandato | Permanente, na estrutura |
+| **Muda com a eleição?** | Não | Sim — é o que a eleição escolhe | Não a estrutura; mudam os ocupantes dos cargos de confiança |
+| **Quem o compõe** | O povo, no território, sob a soberania | Os eleitos e os auxiliares que eles escolhem | Servidores de carreira (concursados), ocupantes de cargos em comissão (livre nomeação) e, ao seu redor, terceirizados contratados |
+| **O que faz** | Decide por último dentro do território | Fixa o rumo: prioridades, políticas, diretrizes | Executa as políticas e aplica a lei, caso a caso |
+| **A que se vincula** | À Constituição que o organiza | Ao programa, nos limites da Constituição e das leis | À lei: só faz o que a lei prevê |
+| **Margem de escolha** | — | Política: escolhe entre caminhos lícitos | Técnica e legal: atua conforme a norma |
+| **Exemplo** | A República Federativa do Brasil | A gestão do prefeito eleito para 2025–2028 | A Secretaria de Saúde, a vigilância sanitária, a autarquia de água |
+| **Para a empresa** | É quem, em última instância, cria a norma que a obriga | Pode mudar as prioridades, não as obrigações já assumidas | É com quem a empresa trata, contrata e se defende |
+
+### Quadro de destaque — A nova prefeita e a fiscalização de posturas
+
+**A situação.** Ao tomar posse, a nova prefeita de um município anuncia que vai "trocar todo
+o pessoal da fiscalização de posturas, porque é gente da gestão passada". Os fiscais do setor
+são servidores de carreira, aprovados em concurso público. O diretor do departamento e o
+secretário municipal ocupam cargos em comissão.
+
+**O equívoco.** A prefeita confunde **governo** com **Administração**. Ela representa o
+governo, que muda com a eleição. Os fiscais integram a Administração, que é permanente e
+serve a todo e qualquer governo: entraram por concurso, não pela gestão passada, e não saem
+porque a gestão mudou.
+
+**O que ela pode, de fato, trocar.** Os ocupantes dos cargos em comissão — o secretário e o
+diretor do departamento —, que são de livre nomeação e exoneração e existem justamente para a
+direção e a chefia. É assim que o novo governo imprime o seu rumo: escolhendo quem dirige, não
+desfazendo o quadro de carreira.
+
+**O que não muda.** O departamento de fiscalização, a competência dele, as normas que ele
+aplica e os servidores efetivos que fazem o trabalho. Para a empresa fiscalizada, a
+consequência é prática: a exigência legal continua valendo no dia seguinte à posse, e o
+processo em andamento continua no mesmo órgão.
+
+> Fontes do quadro: Constituição, art. 37, II e V, conferidos no Planalto em 18/11/2026.
+> Situação construída para esta disciplina.
 
 ### Treino do tópico 3
 
@@ -827,6 +888,32 @@ Sem cláusula expressa de vigência, vale a regra geral da LINDB estudada no Mó
 começa a vigorar quarenta e cinco dias depois de oficialmente publicada. E, uma vez em vigor,
 ninguém se escusa de cumpri-la alegando que não a conhece.
 
+### Quadro de destaque — O decreto que foi além da lei
+
+**A situação.** Uma lei municipal exige que as academias de ginástica exibam o alvará de
+funcionamento na entrada. Ao regulamentá-la, o prefeito edita um decreto que, além disso,
+obriga as academias a manter um fisioterapeuta em tempo integral — exigência que a lei não faz.
+O dono da Academia Movimento quer saber se precisa contratar o profissional.
+
+**A resposta: não precisa.** O decreto regulamentar existe para dar execução à lei, sem criar
+obrigação que ela não previu. Exibir o alvará está na lei e obriga; manter fisioterapeuta não
+está, e o decreto não pode inventar esse dever. Na escada da hierarquia, a lei está acima do
+decreto, e norma de baixo que contraria a de cima não se aplica.
+
+**Três raciocínios errados que costumam aparecer.**
+
+- "O decreto é mais novo, então prevalece." O critério cronológico — a norma posterior
+  revoga a anterior — vale entre normas do **mesmo nível**. Entre níveis diferentes, decide a
+  hierarquia.
+- "O prefeito é a autoridade máxima do município." É o chefe do Executivo, não o dono da
+  norma: ele executa a lei votada pela Câmara, e não a amplia por conta própria.
+- "Basta esperar os quarenta e cinco dias de vacância." O prazo diz **quando** uma norma
+  válida começa a obrigar. Não conserta uma norma que, nesse ponto, não podia ter sido criada
+  por decreto — é a diferença entre **vigência** e **validade** que a turma conhece do
+  Módulo 1.
+
+> Situação construída para esta disciplina.
+
 ### Treino do tópico 7
 
 #### Questão 13
@@ -892,8 +979,8 @@ mesma empresa ao mesmo tempo. O município é o mais presente no cotidiano e o m
 acompanhado.
 
 **Forma e sistema.** Somos Estado federado, república e presidencialismo. Estado é
-permanente; governo muda a cada eleição; Administração Pública é a máquina que executa e
-serve a qualquer governo.
+permanente; governo muda a cada eleição; Administração Pública é a máquina que executa,
+é permanente e serve a todo e qualquer governo, ainda que tenha cargos de livre nomeação.
 
 **As funções.** Um poder, três conjuntos de órgãos. Cada um tem função típica — legislar,
 administrar, julgar — e funções atípicas que a Constituição prevê, e que são o que torna o
@@ -923,7 +1010,8 @@ Roberto Barroso aparecem como reproduzidas nessa obra.
 
 As transcrições da Constituição da República Federativa do Brasil de 1988 — arts. 1º, 2º, 18,
 59, 61, 62, 66, 76 e 92 — foram conferidas no texto compilado do Planalto em 11 de novembro de
-2026, nas redações vigentes. A regra de vigência de quarenta e cinco dias e o art. 3º da LINDB
+2026, nas redações vigentes. O art. 37, II e V, transcrito no item 3.3, foi conferido no Planalto em 18 de novembro
+de 2026. A regra de vigência de quarenta e cinco dias e o art. 3º da LINDB
 vêm do Módulo 2, conferidos em 22 de setembro de 2026.
 
 O material dialoga com o Módulo 2 — *Da lei à empresa* — em dois pontos: a leitura e a

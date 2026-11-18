@@ -439,6 +439,30 @@ está na mesma situação**; **houve desvio de finalidade ou proveito particular
 publicado e motivado**; **o meio escolhido era o mais adequado ao resultado**. São,
 respectivamente, legalidade, impessoalidade, moralidade, publicidade e eficiência.
 
+### Quadro de destaque — "Aqui sempre foi assim"
+
+**A situação.** Numa fiscalização de rotina, o fiscal exige da Doce Sabor Confeitaria uma
+"certidão de boa vizinhança comercial", que nenhuma lei ou regulamento prevê. Questionado pela
+gerente, responde: "aqui sempre foi assim".
+
+**O princípio contrariado: legalidade.** A Administração só pode fazer o que a lei prevê; o
+particular pode fazer tudo o que a lei não proíbe. Uma exigência sem norma que a fundamente não
+se sustenta, e o costume do órgão — "sempre foi assim" — não é fundamento.
+
+**Por que não os outros princípios.**
+
+- **Eficiência** trata de meio e resultado: atraso, desperdício, meio inadequado. A exigência
+  não é ruim por ser lenta; é inválida por não ter base legal.
+- **Publicidade** trata da divulgação e da motivação dos atos. Divulgar a exigência no Diário
+  Oficial não a tornaria válida.
+- **Moralidade** trata de desvio para proveito particular, de deslealdade. Nada no caso indica
+  má-fé, e ela não se presume; o defeito demonstrável é a falta de lei.
+
+**O que a gerente faz.** Pede, por escrito, a indicação da norma que fundamenta a exigência.
+Sem norma, não há dever — e o pedido documentado é a primeira peça de qualquer recurso.
+
+> Situação construída para esta disciplina.
+
 ### Treino do tópico 4
 
 #### Questão 7
@@ -606,6 +630,16 @@ Na prática: quando a empresa contrata com uma secretaria municipal, o contrato 
 **município**, não com a secretaria. É o município que responde, e é contra ele que se
 litiga.
 
+**A hierarquia obriga a ordens legais — não a quaisquer ordens.** A legalidade vale também
+dentro da máquina. O subordinado cumpre as ordens do superior porque a lei organiza a
+hierarquia; por isso mesmo, uma ordem contrária à lei não ganha validade por vir de cima. O
+estatuto dos servidores públicos federais diz isso com todas as letras: é dever do servidor
+*"cumprir as ordens superiores, exceto quando manifestamente ilegais"* e *"representar contra
+ilegalidade, omissão ou abuso de poder"* (Lei nº 8.112/1990, art. 116, IV e XII). Estados e
+municípios têm seus próprios estatutos, e a lógica é a mesma, porque decorre da própria
+legalidade: a lei está acima da ordem do chefe. Quem cumpre ordem manifestamente ilegal não se
+protege atrás dela — o ato é ilegal, e o agente que o praticou responde por ele.
+
 ### 6.2 A Administração Indireta
 
 Ocorre quando o Estado descentraliza os serviços em entidades dotadas de autonomia. Seus
@@ -702,6 +736,30 @@ A consequência prática aparece quando algo dá errado: identifica-se o **agent
 responsabilidade pessoal, o **órgão** para dirigir o recurso administrativo, e a **entidade**
 para ajuizar a ação.
 
+### Quadro de destaque — A ordem por mensagem
+
+**A situação.** Uma autarquia municipal administra o mercado público da cidade. A lei que a
+criou fixou a taxa mensal de ocupação dos boxes e as hipóteses de isenção. O diretor-presidente
+manda, por mensagem de celular, que o gerente administrativo, Paulo, deixe de cobrar a taxa do
+box de um parente seu, mantendo a cobrança de todos os outros.
+
+**O que Paulo deve fazer.** Não cumprir a ordem — ou, no mínimo, exigi-la por escrito, com a
+indicação do fundamento legal, e registrar o ocorrido. Se a irregularidade persistir, levá-la
+a quem tem competência para apurá-la.
+
+**Por quê.** A Administração só faz o que a lei prevê. A taxa e as isenções estão na lei que
+criou a autarquia; isenção que a lei não prevê não se concede por ordem, nem do superior. A
+hierarquia obriga a ordens **legais**, e a lei está acima da ordem do chefe. O favorecimento
+de um parente, com cobrança mantida para os demais, contraria também a impessoalidade e a
+moralidade.
+
+**O que acontece se ele cumprir.** O ato é ilegal: os outros ocupantes, cobrados normalmente,
+podem contestá-lo, e ele pode ser anulado. E Paulo responde pessoalmente — o **agente**
+identifica-se para apurar responsabilidade pessoal, e a ordem do superior não o protege, porque era manifestamente ilegal.
+
+> Fontes do quadro: Lei nº 8.112/1990, art. 116, IV e XII, conferido no Planalto em
+> 18/11/2026, como referência do regime federal. Situação construída para esta disciplina.
+
 ---
 
 ## 7. As entidades da Administração Indireta
@@ -769,6 +827,32 @@ A terceira: **a supervisão não é hierarquia**. O ministério ou a secretaria 
 entidade vinculada para verificar se ela cumpre os objetivos da lei de criação, mas não lhe dá
 ordens como daria a um órgão subordinado. Por isso não adianta pedir ao secretário que
 "mande" a autarquia decidir: o caminho é o processo administrativo dentro dela.
+
+### Quadro de destaque — A autarquia que não pagou
+
+**A situação.** A Fornada Boa Panificadora forneceu bolos e salgados para os eventos do
+Instituto Municipal de Previdência, que é autarquia do município, e emitiu a nota fiscal em
+nome dele. O pagamento não veio, e a panificadora quer saber contra quem cobrar.
+
+**Contra quem: a própria autarquia.** Ela é entidade da Administração Indireta, com
+personalidade jurídica própria: contrai direitos e obrigações e atua em nome próprio. Foi com
+ela que a panificadora contratou, e é ela que responde.
+
+**Contra quem não, e por quê.**
+
+- **O Município.** A autarquia não é um setor interno da prefeitura. Foi criada fora da
+  estrutura central justamente para ter patrimônio e responsabilidade próprios.
+- **O prefeito.** Ele chefia o Executivo municipal, mas não é parte do contrato, e a autarquia
+  não está subordinada a ele por hierarquia.
+- **A secretaria que supervisiona o instituto.** Supervisão não é hierarquia: a secretaria
+  verifica se a autarquia cumpre os objetivos da lei que a criou, mas não responde pelas
+  obrigações dela.
+
+**Compare com a Administração Direta.** Se a panificadora tivesse vendido para uma
+**secretaria** municipal, a resposta seria outra: secretaria é órgão, sem personalidade
+própria, e quem responde é o **Município**.
+
+> Situação construída para esta disciplina.
 
 ### Treino do tópico 7
 
@@ -866,6 +950,8 @@ na redação dada pela Emenda Constitucional nº 19/1998, foi conferida no texto
 Planalto em 11 de novembro de 2026. O art. 37, XIX, e o Decreto-Lei nº 200/1967 são citados
 conforme a exposição da obra-base; a conferência literal desses dois dispositivos no Planalto
 fica registrada como pendente caso venham a ser transcritos entre aspas em avaliação.
+A Lei nº 8.112/1990, art. 116, IV e XII, transcrita no item 6.1, foi conferida no Planalto em
+18 de novembro de 2026.
 
 O módulo dá sequência ao Módulo 3 — *O Estado e seus poderes* — e prepara o Módulo 5, sobre
 licitação, contratos administrativos, terceiro setor e parcerias público-privadas.

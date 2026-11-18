@@ -101,15 +101,25 @@
   function markdownToHtml(markdown) {
     const linhas = markdown.replace(/^---[\s\S]*?---\s*/, '').split(/\r?\n/);
     const saida = [];
+    let quadroAberto = false;
+    const fecharQuadro = () => { if (quadroAberto) { saida.push('</aside>'); quadroAberto = false; } };
     let i = 0;
     while (i < linhas.length) {
       const linha = linhas[i];
       if (!linha.trim()) { i++; continue; }
-      if (/^([-*_])\1{2,}$/.test(linha.trim())) { saida.push('<hr>'); i++; continue; }
-      if (/^<div class="module-quiz-slot"/.test(linha)) { saida.push(linha); i++; continue; }
+      if (/^([-*_])\1{2,}$/.test(linha.trim())) { fecharQuadro(); saida.push('<hr>'); i++; continue; }
+      if (/^<div class="module-quiz-slot"/.test(linha)) { fecharQuadro(); saida.push(linha); i++; continue; }
       if (/^#{1,4} /.test(linha)) {
         const [, cerquilhas, titulo] = linha.match(/^(#{1,4})\s+(.+)$/);
         const nivel = cerquilhas.length;
+        if (nivel <= 3) fecharQuadro();
+        /* "### Quadro de destaque — Título" abre um quadro que vai até o próximo título,
+           a próxima linha horizontal ou o próximo bloco de treino. */
+        const quadro = nivel === 3 && titulo.match(/^Quadro de destaque\s*[—–-]\s*(.+)$/);
+        if (quadro) {
+          saida.push(`<aside class="quadro-destaque"><h3>${inline(quadro[1])}</h3>`);
+          quadroAberto = true; i++; continue;
+        }
         saida.push(`<h${nivel}${nivel === 2 ? ` id="sec-${slug(titulo)}"` : ''}>${inline(titulo)}</h${nivel}>`);
         i++; continue;
       }
@@ -159,6 +169,7 @@
       }
       saida.push(`<p>${inline(paragrafo.join(' '))}</p>`);
     }
+    fecharQuadro();
     return saida.join('\n');
   }
 

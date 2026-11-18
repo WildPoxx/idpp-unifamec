@@ -505,6 +505,130 @@ representação — e risco para todos os envolvidos, inclusive o vendedor que n
 quem estava tratando. Antes de assinar, a pergunta profissional dos dois lados da mesa é a
 mesma: **quem pode assinar por essa organização, e onde está escrito?**
 
+### 5.3 Até onde vai a responsabilidade de quem está por trás da pessoa jurídica
+
+A separação patrimonial é a regra, mas a **medida** dela depende do tipo de sociedade. O
+Código Civil não trata todos os sócios do mesmo jeito: em alguns tipos, o patrimônio pessoal
+fica protegido; em outros, responde junto com o da sociedade. Saber em que tipo se está é a
+primeira pergunta de quem contrata, de quem empresta e de quem entra numa sociedade.
+
+| Tipo | O que o sócio arrisca | Onde está |
+|---|---|---|
+| **Sociedade em comum** (a que funciona sem registro) | Todo o patrimônio pessoal, junto com os demais sócios: *"Todos os sócios respondem solidária e ilimitadamente pelas obrigações sociais"* | Código Civil, art. 990 |
+| **Sociedade simples** | O saldo que os bens da sociedade não cobrirem, na proporção da participação de cada um nas perdas — ou tudo, se o contrato tiver cláusula de solidariedade | Código Civil, arts. 1.023 e 1.024 |
+| **Sociedade em nome coletivo** | Todo o patrimônio pessoal: só pessoas físicas participam, *"respondendo todos os sócios, solidária e ilimitadamente, pelas obrigações sociais"* | Código Civil, art. 1.039 |
+| **Sociedade em comandita simples** | Depende da categoria: o comanditado responde ilimitadamente; o comanditário fica *"obrigado somente pelo valor de sua quota"* | Código Civil, art. 1.045 |
+| **Sociedade limitada** (inclusive a de um sócio só) | O valor das suas quotas — e, enquanto o capital não estiver todo integralizado, solidariamente o que falta integralizar | Código Civil, art. 1.052 |
+| **Sociedade anônima** | O preço de emissão das ações que subscreveu ou adquiriu | Código Civil, art. 1.088 |
+
+Um ponto de partida a mais: o **empresário individual** não é pessoa jurídica. É a própria
+pessoa física exercendo atividade empresarial, e por isso não há patrimônio separado a
+proteger — quem tem a empresa responde com o que tem.
+
+**A sociedade limitada, de perto.** É o tipo mais usado no Brasil para pequenos e médios
+negócios, e a regra cabe numa frase do Código Civil: *"Na sociedade limitada, a
+responsabilidade de cada sócio é restrita ao valor de suas quotas, mas todos respondem
+solidariamente pela integralização do capital social."* Duas ideias moram aí. A primeira é a
+proteção: integralizado o capital, a dívida da sociedade é da sociedade, e o credor não alcança
+a casa nem o carro do sócio. A segunda é o limite da proteção: enquanto houver capital
+prometido e não entregue, qualquer sócio pode ser cobrado por esse valor, mesmo o que já pagou
+a sua parte. A lei ainda admite a limitada com **um único sócio** — a sociedade limitada
+unipessoal —, com a mesma regra. E acrescenta uma trava para quem decide fora da lei: *"As
+deliberações infringentes do contrato ou da lei tornam ilimitada a responsabilidade dos que
+expressamente as aprovaram"* (art. 1.080). Votar pela ilegalidade custa a proteção.
+
+**Quando a proteção cai: a desconsideração da personalidade jurídica.** A regra do Código
+Civil é uma só para todos os tipos de sociedade — o que muda de um tipo para outro é o ponto
+de partida. Numa sociedade em nome coletivo, o sócio já responde com tudo e a desconsideração
+pouco acrescenta; numa limitada ou numa anônima, é ela que permite atravessar a separação
+patrimonial. O texto merece leitura inteira:
+
+> *"Em caso de abuso da personalidade jurídica, caracterizado pelo desvio de finalidade ou pela
+> confusão patrimonial, pode o juiz, a requerimento da parte, ou do Ministério Público quando
+> lhe couber intervir no processo, desconsiderá-la para que os efeitos de certas e determinadas
+> relações de obrigações sejam estendidos aos bens particulares de administradores ou de sócios
+> da pessoa jurídica beneficiados direta ou indiretamente pelo abuso."* (Código Civil, art. 50)
+
+Cinco leituras práticas. É o **juiz** quem desconsidera, a pedido — o credor não faz isso por
+conta própria. Exige **abuso**, e a lei diz o que é: desvio de finalidade, que é usar a pessoa
+jurídica *"com o propósito de lesar credores e para a prática de atos ilícitos de qualquer
+natureza"*, ou confusão patrimonial, que é a falta de separação de fato entre os patrimônios —
+a sociedade pagando, repetidamente, as contas do sócio, ou o contrário; a transferência de
+bens sem contraprestação. Alcança **certas e determinadas** obrigações, não a vida inteira da
+sociedade. Atinge quem **se beneficiou** do abuso, não todo sócio por ser sócio. E não se
+presume: a lei diz expressamente que a simples existência de grupo econômico não basta, e que
+mudar ou ampliar a atividade da empresa não é desvio de finalidade.
+
+**O escudo usado ao contrário.** A separação patrimonial existe para permitir que se
+empreenda sem apostar tudo. Há quem a use para outra coisa, e o Direito conhece os principais
+roteiros:
+
+- **Gestão temerária ou fraudulenta.** O administrador assume riscos que nenhum gestor
+  diligente assumiria, ou desvia recursos, e deixa a sociedade sem como pagar. Resposta da lei:
+  *"Os administradores respondem solidariamente perante a sociedade e os terceiros
+  prejudicados, por culpa no desempenho de suas funções"* (art. 1.016). Nas dívidas tributárias,
+  diretores, gerentes e representantes são **pessoalmente** responsáveis pelos tributos
+  resultantes de atos praticados *"com excesso de podêres ou infração de lei, contrato social
+  ou estatutos"* (Código Tributário Nacional, art. 135).
+- **O "laranja".** Alguém sem patrimônio figura como sócio ou como dono, e quem de fato manda
+  fica fora do papel. Resposta da lei: o negócio que aparenta transmitir direitos a pessoa
+  diversa daquela a quem realmente se transmitem é **simulado**, e o negócio simulado é nulo
+  (Código Civil, art. 167). O juiz pode olhar para quem está por trás do nome.
+- **Bens pessoais escondidos na empresa.** O devedor transfere a casa e o carro para a
+  sociedade, que passa a guardá-los longe dos credores dele. Resposta da lei: a
+  **desconsideração inversa** — o mesmo art. 50 se aplica *"à extensão das obrigações de sócios
+  ou de administradores à pessoa jurídica"*, e os bens da sociedade respondem pela dívida do
+  sócio.
+- **A empresa esvaziada.** Os sócios retiram tudo, a sociedade fica sem bens e para de
+  funcionar, e o credor encontra uma casca vazia. Resposta da lei: confusão patrimonial e
+  desvio de finalidade, pelo art. 50; e, nas relações de consumo, uma regra mais larga.
+
+**Na relação de consumo, a porta é maior.** O Código de Defesa do Consumidor permite a
+desconsideração quando, em detrimento do consumidor, houver *"abuso de direito, excesso de
+poder, infração da lei, fato ou ato ilícito ou violação dos estatutos ou contrato social"*, e
+também na falência ou inatividade *"provocados por má administração"* (art. 28). E vai além:
+a pessoa jurídica pode ser desconsiderada *"sempre que sua personalidade for, de alguma forma,
+obstáculo ao ressarcimento de prejuízos causados aos consumidores"* (art. 28, § 5º). Aqui não se
+exige a prova do abuso que o Código Civil exige.
+
+O saldo para quem administra é simétrico. Para o sócio, a proteção da limitada é real, mas
+depende de conduta: separar contas, integralizar o capital, não deliberar contra a lei, não
+usar a empresa como cofre pessoal. Para quem contrata com uma sociedade, a pergunta é dupla:
+**com que tipo de sociedade estou tratando** — o que diz até onde vai o patrimônio que me
+garante — e **quem assina por ela, com que poderes**.
+
+### Quadro de destaque — A Serra Azul Laticínios Ltda. e o caminhão a prazo
+
+**A situação.** A Serra Azul Laticínios Ltda. é uma pessoa jurídica do modelo sociedade
+limitada, com contrato social registrado e capital integralizado. A sociedade comprou um
+caminhão a prazo. Quem assinou a compra foi Joaquim, administrador da sociedade, que tem no
+contrato social poderes para compras desse tipo. Três parcelas estão atrasadas, e a
+revendedora quer saber de quem cobrar.
+
+**Quem deve: a sociedade.** Ela é pessoa jurídica, com existência e patrimônio distintos dos
+de seus sócios, e se obriga pelos atos do administrador praticados *"nos limites de seus
+poderes definidos no ato constitutivo"* (art. 47). Foi exatamente o que aconteceu: Joaquim
+comprou em nome dela, dentro dos poderes que tinha.
+
+**Quem não deve, e por quê.**
+
+- **Joaquim**, por ter assinado: ele agiu *pela* sociedade, não em nome próprio. Assinar como
+  administrador, dentro dos poderes, não transforma a dívida em dívida pessoal.
+- **Os sócios**, por serem os donos: na limitada, cada um arrisca o valor das suas quotas, e o
+  capital já está integralizado. A casa e o carro deles não respondem pelas parcelas.
+- **O contador**, por controlar os pagamentos: ele não é parte do contrato nem representa a
+  sociedade na compra.
+
+**O que mudaria a resposta.** Se Joaquim tivesse comprado **sem poderes**, surgiria o problema
+de representação da questão 10 deste módulo. Se o capital **não estivesse integralizado**, os
+sócios responderiam, solidariamente, até o valor que falta. E se os sócios tivessem **usado a
+sociedade como escudo** — esvaziando o caixa, misturando contas, pondo um laranja à frente —,
+o credor poderia pedir ao juiz a desconsideração da personalidade jurídica. Nada disso aparece
+no caso: contrato assumido e conduzido dentro da lei, a dívida é da sociedade, e só dela.
+
+> Fontes do quadro: Código Civil, arts. 47, 50 e 1.052, conferidos no Planalto em 18/11/2026.
+> Situação construída para esta disciplina.
+
 ### Treino do tópico 5
 
 #### Questão 9
@@ -863,7 +987,10 @@ tropeça nas duas.
 - **Pessoa física** ganha personalidade ao nascer com vida e capacidade plena aos dezoito;
   **pessoa jurídica** nasce com o **registro** do ato constitutivo, tem patrimônio distinto do
   dos sócios e age por representantes **nos limites** dos poderes definidos — e empresa
-  (atividade) não é sinônimo de pessoa jurídica (sujeito).
+  (atividade) não é sinônimo de pessoa jurídica (sujeito). A **medida** da proteção dos sócios depende do tipo de sociedade: na limitada, cada sócio
+  arrisca o valor das suas quotas (e responde solidariamente pelo capital não integralizado);
+  havendo abuso — desvio de finalidade ou confusão patrimonial —, o juiz pode **desconsiderar**
+  a personalidade jurídica e alcançar quem se beneficiou.
 - **Bens** se classificam para orientar a operação: móveis e imóveis, fungíveis e infungíveis,
   principal e acessório; bens **públicos** (uso comum, uso especial, dominicais) não se
   ocupam livremente nem se adquirem por usucapião — uso econômico exige título.
@@ -889,6 +1016,11 @@ Fontes primárias, consultadas diretamente e na íntegra no portal da Presidênc
 - BRASIL. **Lei nº 10.406, de 10 de janeiro de 2002** — Código Civil (arts. 40-69, 79-103 e
   104-184, com destaque para os arts. 45, 47, 79, 82, 98, 99, 104 e 121).
 - BRASIL. **Constituição da República Federativa do Brasil de 1988**, art. 7º, caput e XXXIII.
+
+Acrescentados em 18/11/2026 ao item 5.3, com transcrições conferidas no Planalto nessa data:
+Código Civil, arts. 50, 167, 990, 1.016, 1.023, 1.024, 1.039, 1.045, 1.052, 1.080 e 1.088;
+BRASIL. **Lei nº 8.078, de 11 de setembro de 1990** — Código de Defesa do Consumidor, art. 28;
+BRASIL. **Lei nº 5.172, de 25 de outubro de 1966** — Código Tributário Nacional, art. 135.
 
 Doutrina de apoio, na divisão fixada pela leitura dirigida da disciplina: MARTINS, Sérgio
 Pinto. *Instituições de direito público e privado*. 6. ed. São Paulo: Atlas, 2006 — fonte
